@@ -1,0 +1,12 @@
+**Note: Starting room first entrance
+You wake up and enter move towards the center of the chamber.
+It's dark, wet, and stoney
+There is a passageway to your left and to your right,
+You cannot see into either.
+where do you go?
+(1) left
+(2) right
+
+** test
+Hi im Xander
+Your mom

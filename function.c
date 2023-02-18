@@ -4,3 +4,8 @@ int add_A_and_B(int a, int b)
 {
     return a+b;
 }
+
+int subtract_A_and_B(int a, int b)
+{
+    return a-b;
+}

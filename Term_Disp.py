@@ -16,4 +16,4 @@ def Narrate(start_int, end_int, delay_scalar, attention_const):
         print((file[start_index+i].strip('\n')))
         time_of_sentence = len(file[i+(start_index)])/10
         time.sleep(attention_const+(delay_scalar*time_of_sentence))
-    print(62*'/')
+    print(62*'/') 

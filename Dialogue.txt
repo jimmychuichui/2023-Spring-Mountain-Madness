@@ -1,12 +1,18 @@
-**Note: Starting room first entrance
-You wake up and enter move towards the center of the chamber.
+**Node 1 F
+You wake up and move towards the center of the chamber.
 It's dark, wet, and stoney
+you are cold.
+
 There is a passageway to your left and to your right,
 You cannot see into either.
 where do you go?
 (1) left
 (2) right
 
-** test
-Hi im Xander
-Your mom
+**Node 2: F
+The darkness is sufficating as you sneak through a hallway
+Continuing in silence you enter a dingy cell
+Against the wall leans a skeleton
+A dried and bloodied knife sits beside It
+Suddenly!
+you hear something strange:

@@ -1,3 +1,5 @@
-def branch1():
-    print("This is branch 1")
+def branch1(name):
+    print("Welcome to the first branch of the game " + name + "!")
+
+
 

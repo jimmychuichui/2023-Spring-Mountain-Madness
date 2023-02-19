@@ -1,8 +1,8 @@
 import os
 import text
 
-def read_for_choices(node_number, node_name):
-    with open("left_right_choices.txt", "r") as file:
+def read_for_diaglog(node_number, node_name):
+    with open("Dialogue.txt", "r") as file:
         lines = file.readlines()
 
     start_index = 0

@@ -2,7 +2,7 @@ import os
 import text
 
 def read_for_diaglog(node_number, node_name):
-    with open("Dialogue.txt", "r", encoding="UTF-8") as file:
+    with open("Dialogue.txt", "r", errors="ignore") as file:
         lines = file.readlines()
 
     start_index = 0

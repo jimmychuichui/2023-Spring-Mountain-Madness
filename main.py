@@ -12,7 +12,8 @@ import minigame_ultimate
 
 
 
-pos = nodes.node_12
+pos = nodes.node_start
+'''
 if pos.data == '12':
     #print(wordle_choices)
     read_dialogue.read_for_diaglog(int(pos.data), 'A')
@@ -25,6 +26,7 @@ if pos.data == '12':
     wordle_choices = ['CHECK','BRAIN','HELLO','AUDIO']
     minigame_ultimate.run_ultimate(wordle_choices)
 read_dialogue.read_for_diaglog(0, 'A')
+'''
 dead = False
 
 wordle_choices = []

@@ -7,6 +7,9 @@ import text
 # Left: until Right:
 # then Right: until **
 
+#return an array of strings
+# [left, right]
+
 def read_for_choice(node_number, node_name):
     with open("left_right_choices.txt", "r") as file:
         lines = file.readlines()

@@ -7,6 +7,7 @@ you are cold.
 There is a passageway to your left and to your right,
 You cannot see into either.
 Where do you go?
+
 (1) left
 (2) right
 **
@@ -58,6 +59,7 @@ Something pops up onto your phone
 The man has his hand outstretched
 It appears as though he wants you to shake it
 Hidden in his sleeves snaking around his arm you see a strange device.
+
 (1) leave through the other door
 (2) Shake his hand
 **
@@ -78,6 +80,7 @@ It appears to be sentient
 The shock from both teleporting and seeing a really funguy has worn off
 You pick it up and punt it into the distance.
 You feel better.
+
 (1) You walk through the luminescent covered opening to your left
 (2) You get down and crawl towards the hole on your left
 **
@@ -211,6 +214,7 @@ Build Corrupted. To remedy this error, solve this puzzle:
 ***
 
 **Node 2: Z
+
 (1) Go through the left door
 (2) Go through the right door
 ***
@@ -248,6 +252,7 @@ You must try to debug as fast as possible.
 ***
 
 **Node 6: Z
+
 (1) Go to the left
 (2) Go to the right
 ***
@@ -267,6 +272,7 @@ Time to translate once again. Your phone screen is dim due to low battery.
 ***
 
 **Node 8: Z
+
 (1) Enter the left-hand portal 
 (2) Enter the right-hand portal
 ***
@@ -289,6 +295,7 @@ Surprise, surprise. It must be debugged.
 ***
 
 **Node 9: Z
+
 (1) Run away from the ritualistic gnomes
 (2) Happily join the gnome parade
 ***
@@ -307,6 +314,7 @@ A fax machine begins to print out the correct translation. But it runs out of pa
 **
 
 **Node 11: Z
+
 The fax machine finishes printing. The paper says:
 (1) Go to the left
 (2) Go to the right

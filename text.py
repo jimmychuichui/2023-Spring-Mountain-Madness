@@ -36,3 +36,4 @@ def print_garbage(size):
         random_num = random.randint(0,125)
         print_Cyan((line[random_num]))
     print()
+    print(100*'=') 

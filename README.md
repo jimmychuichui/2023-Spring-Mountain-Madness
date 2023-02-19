@@ -47,4 +47,20 @@ To run this game properly, first download the folder from the release section, t
 For Windows user, just download and click the .exe file. No extra step needed.
  
 For the best experience, please turn your terminal window to fullscreen mode.
+ 
+</p>
+
+# How to run the game from source
+
+<p>
+  
+First download or clone the source code. Make sure python is correctly installed on your computer.
+Check for dependancy (if colorama is not installed, running below comand will make sure it installed)
+```
+  pip install colorama
+```
+After that, run:
+```
+  python main.py
+```
   

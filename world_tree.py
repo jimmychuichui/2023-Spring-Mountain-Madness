@@ -109,45 +109,47 @@ nodes.node_12.optionL = nodes.node_end
 
 
 #create_nudes()
-'''
-node_itr = nodes.node_start
-dead = False
-while not dead and node_itr.data != "End":
+
+def move(node):
+    pos = node
+    dead = False
+   
     option = input("R/L/B: ").lower()
-    temp = node_itr
+    temp = pos
 
 
     if option == 'l':
-        if node_itr.optionL == None:
+        if pos.optionL == None:
             dead = True
             print("Ded")
         else:
-            node_itr = node_itr.optionL
-            node_itr.previous = temp
-            print(node_itr.data, node_itr.previous)
+            pos = pos.optionL
+            pos.previous = temp
+            print('Current room:',pos.data, 'Previous room:',pos.previous)
     elif option == 'r':
-        if node_itr.optionR == None:
+        if pos.optionR == None:
             dead = True
             print("Ded")
         else:
-            node_itr = node_itr.optionR
-            node_itr.previous = temp
-            print(node_itr.data, node_itr.previous)
+            pos = pos.optionR
+            pos.previous = temp
+            print('Current room:',pos.data, 'Previous room:',pos.previous)
     elif option == 'b':
-        if node_itr.previous == None:
+        if pos.previous == None:
             print("Cannot go back further")
         else:
-            node_itr = node_itr.previous
-            print("Current node: " + node_itr.data)
+            pos = pos.previous
+            print("Current node: " + pos.data)
 
     else:
         print("Correct input not recieved")  
+    return pos
 
-    if node_itr == nodes.node_4:
-        minigame.run()
+    ##if pos == nodes.node_4:
+        ##minigame.run()
 
     
     
 
 #print("You Won")
-'''
+

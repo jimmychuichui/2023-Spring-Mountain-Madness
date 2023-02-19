@@ -75,7 +75,7 @@ while not dead:
         #print("Current room number:",pos.data)
         # Read beginning of wordle info, run wordle
         read_dialogue.read_for_diaglog(int(pos.data), 'B')
-        time.sleep(2)
+        time.sleep(3)
         if pos == nodes.node_1 or pos == nodes.node_2:
             minigame.instructions()
         else:

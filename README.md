@@ -38,9 +38,10 @@ To run this game properly, first download the folder from the release section, t
   ![til](./drag_example.gif)
   
   Then type
-  '''
+  
+  ```
   ./Game_Macos_arm64
-  '''
+  ```
  
   
 For Windows user, just download and click the .exe file. No extra step needed.

@@ -14,24 +14,6 @@ class Node:
 
 
 
-
-'''
-global nodes.node_start
-global nodes.node_1
-global nodes.node_2
-global nodes.node_3
-global nodes.node_4
-global nodes.node_5
-global nodes.node_6
-global nodes.node_7
-global nodes.node_8
-global nodes.node_9
-global nodes.node_10
-global nodes.node_11
-global nodes.node_12
-global nodes.node_end
-'''
-
 # create room nodes
 nodes.node_start = Node("Start")
 
@@ -117,7 +99,7 @@ def get_options(node):
         options[0] = 0
     if pos.optionR == None:
         options[1] = 0
-    print(options)
+    #print(options)
     return options
 
 def move(node):

@@ -31,7 +31,7 @@ dead = False
 
 wordle_choices = []
 
-while not dead and pos.data != "End":
+while not dead:
     print('\n')
     pos_copy = pos
     pos = world_tree.move(pos)
@@ -62,6 +62,9 @@ while not dead and pos.data != "End":
         else:
             os.system(CLEAR_SCREEN)
             read_dialogue.read_for_diaglog(int(pos.data), 'W')
+            input("Press Enter to end the game:")
+            dead = True
+
 
 
     elif pos != nodes.node_start:

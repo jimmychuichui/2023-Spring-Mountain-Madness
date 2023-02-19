@@ -92,10 +92,12 @@ def instructions():
     for i in range(len(words)):
         char = f'{Style.BRIGHT}{Fore.BLACK}{Back.GREEN}{words[i]}{Style.RESET_ALL}'
         print(char, end= '')
-        if i<5:
-            print('placeholder')
-        print(f"{Style.BRIGHT}{Fore.BLACK}{Back.GREEN},{Style.RESET_ALL}", end='')
+        if i<3:
+            print(f"{Style.BRIGHT}{Fore.BLACK}{Back.GREEN},{Style.RESET_ALL}", end='')
     print()
+    time.sleep(0.5)
+    print("The words are in a random order")
+    print("Good Luck!")
     
 
 
@@ -114,4 +116,4 @@ def run_ultimate(words):
 #words = ['TREAT', 'STATE', 'THING', 'CHIEF', 'LEASE']
 #run_ultimate(words)
 
-instructions()
+#finstructions()

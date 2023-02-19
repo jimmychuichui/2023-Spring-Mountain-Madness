@@ -1,29 +1,142 @@
-**Xander Responsible for even nodes
-**Max char len of 60
-**Start Node A
-You wake up and move towards the center of the chamber.
+**Node 0: A
+You wake up and move towards the centre of the chamber.
 It's dark, wet, and stoney
 you are cold.
 
 There is a passageway to your left and to your right,
 You cannot see into either.
-where do you go?
+Where do you go?
 (1) left
 (2) right
+**
 
-**Node 2: A
-The darkness is sufficating as you sneak through a hallway
-Continuing in silence you enter a dingy cell
+**Node 3: A
+You politely excuse yourself and run in opposite direction as far as you can
+Before you know it your surroundings are unrecognisable
+Yout run slows to a walk as you a terrible scene fills your vision
 Against the wall leans a skeleton
 A dried and bloodied knife sits beside It
 Suddenly!
 you hear something strange:
+**
+French
 
-**Node 2: B 
-A message appears from your phone
-"Solve my puzzle to translate"
-A game pops up on your phone
+**Node 3: B
+There's a buzzing in your pocket
+**
+Left: Clack clack clack I love to drink human blood clack clack clack
+Right: The prisoner has escaped and is in the skeleton room! We have them surrounded!
+
+**Node 3: Z
+Looking up from your phone there are two options
+(1) grab the knife from the skeleton
+(2) leave silently
+**
+
+**Node 1: A
+The darkness is suffocating as you sneak through a hallway
+Continuing in silence you enter a dingy cell
+And so does a stranger from a door to your right
+Although previously looking at his phone he locks eyes with yours.
+He speaks at you although you do not understand his words
+french
+
+**Node 1: B 
+Recognizing this to be French yet being a native english speaker
+You pull out your favourite ‘generic brand’ translator app on your phone
+…
+…
+*Build Corrupted*
+“To remedy this unfortunate error solve this puzzle”
+Something pops up onto your phone
+
+
+**Node 1: Z
+right: “It has been a long time without the touch of another human…”
+left: “Stay away from me, I have leprosy”
+The man has his hand outstretched
+It appears as though he wants you to shake it
+Hidden in his sleeves snaking around his arm you see a strange device.
+(1) Shake his hand
+(2) leave through the other door
+
+**Node 4: A
+Grabbing the man's hand was a clear mistake
+You can recall the look in his eyes as he activated the strange contraption
+The teleport has left you feeling queasy and cloudy minded
+Looking you see something marvellous
+Everywhere you look brilliant bright blue glowing mushrooms
+A whole forest of them.
+You notice the smaller bright blue glowing mushroom standing on top of you
+It appears to be sentient
+**
+French here
+
+Left: This place is dangerous! You need to leave there is a safe zone on your left
+Right: WOW. You got here through the cursed evil deadly forest on your left? WOW
+** Node 4: B
+The shock from both teleporting and seeing a really funguy has worn off
+You pick it up and punt it into the distance.
+You feel better.
+(1) You walk through the luminescent covered opening to your right
+(1) You get d
+
+
+
+80 characters is a pretty long line but we shouldn’t have any trouble with makin
+
+
+**Node 2: A
+You walk down a dimly lit hallway.
+A spiderweb clings to your face and you brush it aside.
+A warm, comforting light emanates from an open door.
+Inside you find an old man listening to classical music.
+“French”
+
+**Node 2: B
+You open up “Generic Brand Translator”.
+An error message appears on the screen:
+Build Corrupted. To remedy this error, solve this puzzle:
 
 **Node 2: Z
-Looking up from your phone there are two options
-(1) 
+Left: “I’ve heard that there is an orchestra playing tonight. Just go through the door on your left.”
+Right: “Watch out for the tuba men. They like to hang out over there.” (He points to the door on your left)
+(1) Go through the left door
+(2) Go through the right door
+***
+
+**Node 5: A
+You enter a room filled with moving gears. A faint, rhythmic tick fills the silence. 
+A tiny woman sits at a desk in the centre of the room. 
+It appears that she is a Clockmaker. 
+She turns a half rotation on her swivel stool
+French
+
+**Node 5: B
+To translate, you must debug the app:
+
+**Node 5: Z
+Left: “If you are lost, always look at the time.” (The hour hand points to 9 o’clock)
+Right: “Step carefully please. My clocks are precise but delicate. Take the door to your right.”
+(1) Perform gymnastics on the way over to door three to avoid breaking the delicate parts
+(2) Perform parkour to reach the right-hand door without touching her work
+***
+
+**Node 6: A
+You move down another dimly-lit hallway. You encounter a door, and give it a push.
+The door is jammed.
+You throw your weight on the door and it bursts open.
+An earthworm sticks his head out of the ground and begins to speak:
+French
+
+**Node 6: B
+He is speaking quickly, but the app refuses to work!
+You must try to debug as fast as possible.
+
+**Node 6: Z
+Left: “Hey there! I’m Jim. But you can call me Larry. Or Pete. I’ve heard that the soil is pretty tasty if you go to the door on your left!
+Right: “Hey there! I’ve got a secret to tell you. Follow me down this hallway to the right.
+(1) Try to escape from the strange worm.
+(2) 
+
+

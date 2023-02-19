@@ -27,19 +27,6 @@ def print_Cyan(txt):
     print(f"{Style.BRIGHT}{Fore.CYAN}"+txt.strip('\n'),f"{Style.RESET_ALL}", end = "")
 
 #prints out a translation and the % of getting the correct translation from Translations.txt
-def print_Outcome(attempts, start_int):
-    lst = [100, 87.5, 75, 62.5, 50, 37.5, 25, 12.5]
-    percent = lst[attempts-1]
-    checker = random.randint(1,100)
-    file = open("Translations.txt")
-    line = file.readlines()
-    if percent>=checker:
-        success = 0
-    else:
-        success = 1
-    print("Chance of success {:.2f}".format(percent))
-    print(success)
-    print(line[start_int+success])
 
 #prints put random garbage
 def print_garbage(size):

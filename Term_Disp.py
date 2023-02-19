@@ -1,5 +1,5 @@
 import time
-from colorama import Fore, Back, Style
+from colorama import Fore, Style
 import random
 
 
@@ -20,11 +20,13 @@ def print_Narrate(start_int, end_int, delay_scalar, attention_const):
         print((file[start_index+i].strip('\n')))
         time_of_sentence = len(file[i+(start_index)])/10
         time.sleep(attention_const+(delay_scalar*time_of_sentence))
-    print(62*'/') 
+    print(80*'/') 
 
+#prints inserted text in a Bold and Cyan with an extra space at the end
 def print_Cyan(txt):
     print(f"{Style.BRIGHT}{Fore.CYAN}"+txt.strip('\n'),f"{Style.RESET_ALL}", end = "")
 
+#prints out a translation and the % of getting the correct translation from Translations.txt
 def print_Outcome(attempts, start_int):
     lst = [100, 87.5, 75, 62.5, 50, 37.5, 25, 12.5]
     percent = lst[attempts-1]
@@ -39,11 +41,11 @@ def print_Outcome(attempts, start_int):
     print(success)
     print(line[start_int+success])
 
+#prints put random garbage
 def print_garbage(size):
     file = open("French Words.txt")
     line = file.readlines()
     for i in range(size):
         random_num = random.randint(0,99)
         print_Cyan((line[random_num]))
-
-print_garbage(17)
+    print()

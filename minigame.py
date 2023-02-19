@@ -42,7 +42,7 @@ def play(chosen_word):
     game_running = True
     score = 0
     history = []
-    #print(chosen_word)
+    print(chosen_word)
     while game_running and score<8:
         score += 1
         guess = make_guess(score).upper()

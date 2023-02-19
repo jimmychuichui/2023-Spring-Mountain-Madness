@@ -19,15 +19,15 @@ def make_guess(num):
     print(f"Make your guess ({num})")
     guess = ''
     guess = input()
-    if len(guess) != 5:
-            print("Must be 5 letters")
+    if len(guess) != (5*5)+4:
+            print("Must be 5 5-letter words, separated by 4 commas")
             return make_guess(num)
     return guess
 
 def check_guess(guess, chosen_word):
     result = []
 
-    for i in range(5):
+    for i in range(29):
         if guess[i]==chosen_word[i]:
             result.append(["MATCH", guess[i]])
         elif guess[i] in chosen_word:
@@ -43,7 +43,7 @@ def play(chosen_word):
     score = 0
     history = []
     #print(chosen_word)
-    while game_running and score<8:
+    while game_running and score<12:
         score += 1
         guess = make_guess(score).upper()
         #print(guess)
@@ -88,9 +88,16 @@ def play(chosen_word):
 
 
 def run_ultimate(words):
-    words.shuffle()
+    random.shuffle(words)
     ultimate_choice = ''
-    for word in words:
-        ultimate_choice += word
-    len = len(ultimate_choice)
+    for i in range(len(words)):
+        ultimate_choice += words[i]
+        if i<len(words)-1:
+            ultimate_choice += ','
+
+        
+    print(ultimate_choice)
     play(ultimate_choice)
+
+words = ['TREAT', 'STATE', 'THING', 'CHIEF', 'LEASE']
+run_ultimate(words)

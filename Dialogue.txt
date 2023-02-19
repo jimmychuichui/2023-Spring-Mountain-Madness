@@ -138,5 +138,6 @@ Left: “Hey there! I’m Jim. But you can call me Larry. Or Pete. I’ve heard 
 Right: “Hey there! I’ve got a secret to tell you. Follow me down this hallway to the right.
 (1) Try to escape from the strange worm.
 (2) 
+**
 
 

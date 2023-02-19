@@ -1,4 +1,4 @@
-
+import minigame
 
 class Node:
     def __init__(self, data):
@@ -81,9 +81,10 @@ node_12.optionL = node_end
 
 node_itr = node_start
 dead = False
-while not dead or node_itr.data == "End":
+while not dead and node_itr.data != "End":
     option = input("R/L/B: ").lower()
     temp = node_itr
+
 
     if option == 'l':
         if node_itr.optionL == None:
@@ -110,6 +111,9 @@ while not dead or node_itr.data == "End":
 
     else:
         print("Correct input not recieved")  
+
+    if node_itr == node_4:
+        minigame.run()
 
     
     

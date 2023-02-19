@@ -38,6 +38,11 @@ while not dead:
     os.system(CLEAR_SCREEN)
     if pos == 'dead':
         #print("You died")
+        if pos_copy == nodes.node_start:
+            print("Returning to main menu...")
+            time.sleep(1)
+            break
+
         read_dialogue.read_for_diaglog(int(pos_copy.data), 'D')
         dead = True
         print('\n\n\n')
@@ -89,7 +94,7 @@ while not dead:
         # here I will call the read_choices function 
         options = world_tree.get_options(pos)
         translations = read_choices.read_for_choice(int(pos.data), "T")
-        random_translation.give_tranlation(score[0], options, translations[0], translations[1])
+        random_translation.give_translation(score[0], options, translations[0], translations[1])
 
         # Show movement options
         read_dialogue.read_for_diaglog(int(pos.data), 'Z')

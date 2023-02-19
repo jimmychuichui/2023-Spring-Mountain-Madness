@@ -132,7 +132,8 @@ def move(node):
         else:
             pos = pos.previous
             #print("Current node: " + pos.data)
-
+    elif option == 'exit':
+        return 'dead'
     else:
         print("Correct input not recieved")  
     return pos

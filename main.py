@@ -13,6 +13,8 @@ import text
 import read_dialogue
 import read_choices
 import random_translation
+import main_menu
+
 
 CLEAR_SCREEN = ''
 if os.name == 'nt':
@@ -21,6 +23,15 @@ else:
     CLEAR_SCREEN = 'clear'
 
 os.system('cls' if os.name == 'nt' else 'clear')
+
+
+main_menu.opening_logo(20)
+
+time.sleep(1)
+
+main_menu.info()
+
+
 
 pos = nodes.node_start
 read_dialogue.read_for_diaglog(0, 'A')
@@ -95,6 +106,8 @@ while not dead:
         # here I will call the read_choices function 
         options = world_tree.get_options(pos)
         translations = read_choices.read_for_choice(int(pos.data), "T")
+        print('\n')
+        print("Incoming Translation:")
         random_translation.give_translation(score[0], options, translations[0], translations[1])
 
         # Show movement options

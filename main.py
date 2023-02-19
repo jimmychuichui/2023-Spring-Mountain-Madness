@@ -55,6 +55,7 @@ while not dead and pos.data != "End":
         read_dialogue.read_for_diaglog(int(pos.data), 'E')
         #wordle_choices = ['CHECK','BRAIN','HELLO','AUDIO']
         minigame_ultimate.instructions()
+        os.system(CLEAR_SCREEN)
         score = minigame_ultimate.run_ultimate(wordle_choices)
         if score == 12:
             read_dialogue.read_for_diaglog(int(pos.data), 'D')
@@ -74,6 +75,8 @@ while not dead and pos.data != "End":
         time.sleep(2)
         if pos == nodes.node_1 or pos == nodes.node_2:
             minigame.instructions()
+        else:
+            input("Press Enter to begin:")
         score = minigame.run()
         wordle_choices.append(score[1])
         #print(wordle_choices)

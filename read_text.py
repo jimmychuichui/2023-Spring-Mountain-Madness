@@ -7,8 +7,10 @@ def read_for_diaglog(node_number, node_name):
 
     start_index = 0
     end_index = 0
+    checkfor = "**Node " + str(node_number)+ ": " + node_name
     for i, line in enumerate(lines):
-        if line.startswith("**") and node_name in line and str(node_number) in line:
+        #if line.startswith("**") and node_name in line and str(node_number) in line:
+        if checkfor in line:
             i+=1
             start_index = i
             while i < len(lines) and not lines[i].startswith("**"):
@@ -23,6 +25,6 @@ def read_for_diaglog(node_number, node_name):
 
 
 
-#index = read_for_diaglog(6, "Z")
+index = read_for_diaglog(1, "Z")
 #print(index)
     

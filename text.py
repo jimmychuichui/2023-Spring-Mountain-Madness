@@ -48,4 +48,6 @@ def print_garbage(size):
     for i in range(size):
         random_num = random.randint(0,125)
         print_Cyan((line[random_num]))
+        if i%10 == 0 and i!=0:
+            print()
     print()

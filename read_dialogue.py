@@ -23,6 +23,8 @@ def read_for_diaglog(node_number, node_name):
     #print(start_index+1, " ", end_index)
     text.print_Narrate(start_index+1, end_index, 0.05, 1)
 
+    file.close()
+
 
 
 #index = read_for_diaglog(11, "A")

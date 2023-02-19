@@ -93,9 +93,3 @@ while not dead:
 
         # Show movement options
         read_dialogue.read_for_diaglog(int(pos.data), 'Z')
-
-    
-
-        
-
-

@@ -1,3 +1,10 @@
+
+
+**Xander Responsible for even nodes
+**Max char len of 60
+Left
+right
+
 **Node 0: A
 You wake up and move towards the centre of the chamber.
 It's dark, wet, and stoney
@@ -74,16 +81,71 @@ French here
 
 Left: This place is dangerous! You need to leave there is a safe zone on your left
 Right: WOW. You got here through the cursed evil deadly forest on your left? WOW
-** Node 4: B
+**Node 4: Z
 The shock from both teleporting and seeing a really funguy has worn off
 You pick it up and punt it into the distance.
 You feel better.
-(1) You walk through the luminescent covered opening to your right
-(1) You get d
+(1) You walk through the luminescent covered opening to your left
+(1) You get down and crawl towards the hole on your left
+**
+
+**Node 7: A
+You can smell the zone before you can see it
+Just beyond the way you see a grim foreboding red mushroom forest
+Red is your least favourite colour
+…
+…
+The trek was arduous but you have found yourself on top of a large hill
+The hill is (mushroom) capped by a tree 
+In its shadow lies an hypnotising apple, a miasma of colour on its skin
+The guardian snake gently descends from the tree and bares its fangs
+** 
+French
+
+**Node 7: B
+Very impressed that a snake can speak french, you snap a photo before 
+Attempting to translate his ssseductive ssspeech
+**
+left: This apple grants vision to those sssseeking knowledge. Eat.
+right: Stay away interloper it is my sssacred duty to defend the fruits of this tree.
+Get too close and you will make a tasty sssnack.
 
 
+**Node 7: Z
+…
+…
+The apple
+…
+…
 
-80 characters is a pretty long line but we shouldn’t have any trouble with makin
+(1)Resist the allure
+(2)Eat the apple
+**
+
+**Node 10: A
+Hallway.
+Hallways.
+One path.
+Forever.
+And ever
+**
+
+**Node 10: B
+The Hallway has turned into a spiral staircase
+After delving deeper(higher?) into this maze you feel as though you are close
+To what? You don’t know.
+The walls and floor feel thin
+They reverberate periodically. Rippling through the infinity you came from.
+This you push past.
+Then you find something.
+A giant abyss housing a great big nothing that still beats
+like a memory
+A stray thought crosses your mind
+***
+“French”
+
+“Sit here and stay a 
+
 
 
 **Node 2: A
@@ -92,15 +154,18 @@ A spiderweb clings to your face and you brush it aside.
 A warm, comforting light emanates from an open door.
 Inside you find an old man listening to classical music.
 “French”
+***
 
 **Node 2: B
 You open up “Generic Brand Translator”.
 An error message appears on the screen:
 Build Corrupted. To remedy this error, solve this puzzle:
+***
 
 **Node 2: Z
 Left: “I’ve heard that there is an orchestra playing tonight. Just go through the door on your left.”
-Right: “Watch out for the tuba men. They like to hang out over there.” (He points to the door on your left)
+Right: “Watch out for the tuba men. They like to hang out over there.” 
+(He points to the door on your left)
 (1) Go through the left door
 (2) Go through the right door
 ***
@@ -111,9 +176,11 @@ A tiny woman sits at a desk in the centre of the room.
 It appears that she is a Clockmaker. 
 She turns a half rotation on her swivel stool
 French
+***
 
 **Node 5: B
 To translate, you must debug the app:
+***
 
 **Node 5: Z
 Left: “If you are lost, always look at the time.” (The hour hand points to 9 o’clock)
@@ -127,17 +194,125 @@ You move down another dimly-lit hallway. You encounter a door, and give it a pus
 The door is jammed.
 You throw your weight on the door and it bursts open.
 An earthworm sticks his head out of the ground and begins to speak:
+***
 French
 
 **Node 6: B
 He is speaking quickly, but the app refuses to work!
 You must try to debug as fast as possible.
+***
 
 **Node 6: Z
 Left: “Hey there! I’m Jim. But you can call me Larry. Or Pete. I’ve heard that the soil is pretty tasty if you go to the door on your left!
 Right: “Hey there! I’ve got a secret to tell you. Follow me down this hallway to the right.
-(1) Try to escape from the strange worm.
-(2) 
-**
+(1) Go to the left
+(2) Go to the right
+***
+
+**Node 8: A
+You enter another room.
+Caustics flicker off the ceiling. The walls appear to be made of glass. There are two portals on either wall
+Behind the glass is water, stretching as far as the eye can see. 
+A crab floats lazily along the left wall. It sports a magnificent Fu Manchu moustache.
+He begins to speak in a velvety voice.
+French
+***
+
+**Node 8: B
+Time to translate once again. Your phone screen is dim due to low battery.
+***
+
+**Node 8: Z
+Left: “My name is Monsieur Crabbes. I adore money. There is lots of it in the portal to the left.”
+Right: “My name is Monsieur Crabbes. I adore money. There is lots of it in the portal to the right.”
+(1) Enter the left-hand portal 
+(2) Enter the right-hand portal
+***
+
+**Node 9: A
+You walk down a long hallway. It smells earthy.
+As you round a corner, you hear the sound of tiny voices.
+You enter a garden full of busy gnomes. They are performing a ritual.
+They stop,
+Turn,
+And look directly at you.
+They begin to chant as one:
+French
+***
+
+**Node 9: B
+You pull out your phone and select the french-(gnome dialect)-to-english translator. 
+Surprise, surprise. It must be debugged.
+***
+
+**Node 9: Z
+Left: “You can either leave or join us. We suggest you leave”
+Right: “We encourage you to join our happy occasion!”
+(1) Run away from the ritualistic gnomes
+(2) Happily join the gnome parade
+***
+
+**Node 11: A
+You find yourself in a bland office space. 
+The sound of clackity keyboards drifts from behind cubicles. 
+A mug of cold coffee sits near your elbow. 
+An elderly secretary peers over her horn-rimmed glass and says:
+French
+
+**Node 11: B
+A fax machine begins to print out the correct translation. But it runs out of paper midway through! You must figure out the code to open up the paper feed tray!
+
+**Node 11: Z
+The fax machine finishes printing. The paper says:
+Left: “The bathrooms are to the left. Don’t clog the toilets or I’ll have to call Larry again.”
+Right: “The staff room is to the right. Don’t eat my muffins”
+(1) Go to the left
+(2) Go to the right
+***
+
+
+
+
+
+
+
+
+
+DEATHS:
+
+**Node 6: D
+Earthworm Jim (or was it Larry?) leads you down the hallway.
+Suddenly!
+Jim pulls out a tiny worm-sized knife and stabs your big toe.
+You hop around in mild pain but fail to notice the trap door on the side of the hallway. 
+You land directly on it, it opens, and you fall to your death.
+Your last thought is:
+“Betrayal by an earthworm is not a noble way to die”
+***
+
+**Node 9: D
+You begin to dance with the gnomes. 
+They seem to be worshipping some sort of sun god.
+You are so entranced by the coordination of the tiny people that you fail to notice a garden shovel being sharpened.
+As if on cue, the gnomes swarm around you and lift you off your feet.
+They carry you over to a human-sized picnic bench.
+You realise much too late that you are about to become a human sacrifice.
+The last words you hear before the shovel pierces your chest are:
+“YOU JUST GOT GNOMED”
+***
+
+**Node 11: D
+You walk into a musty-smelling staff room. A plate of muffins sits on the counter.
+Suddenly!
+An evil stapler hops its way across the kitchen counter. 
+Before you can react, it jumps onto your face.
+In quick succession it staples your eyes, mouth and nose closed.
+You can no longer breathe.
+As you run out of air you hear the stapler assailant clacking evilly.
+As if it is laughing…
+***
+
+
+
 
 

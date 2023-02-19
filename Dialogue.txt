@@ -1,4 +1,6 @@
-**Node 1 F
+**Xander Responsible for even nodes
+**Max char len of 60
+**Start Node A
 You wake up and move towards the center of the chamber.
 It's dark, wet, and stoney
 you are cold.
@@ -9,10 +11,18 @@ where do you go?
 (1) left
 (2) right
 
-**Node 2: F
+**Node 2: A
 The darkness is sufficating as you sneak through a hallway
 Continuing in silence you enter a dingy cell
 Against the wall leans a skeleton
 A dried and bloodied knife sits beside It
 Suddenly!
 you hear something strange:
+
+**Node 2: B 
+A message appears from your phone
+"Solve my puzzle to translate"
+A game pops up on your phone
+
+**Node 2: Z
+Looking up from your 

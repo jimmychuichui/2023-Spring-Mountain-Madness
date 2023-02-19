@@ -11,7 +11,7 @@ import text
 # [left, right]
 
 def read_for_choice(node_number, node_name):
-    with open("left_right_choices.txt", "r", errors="ignore") as file:
+    with open("left_right_choices.txt", "r") as file:
         lines = file.readlines()
 
     start_index = 0

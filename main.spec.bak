@@ -1,13 +1,17 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 
+import sys, os
 block_cipher = None
+dir_path = os.path.sep.join(sys.argv[0].split(os.path.sep)[:-1])
+
 
 
 a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
+    datas=[(str(dir_path)+ '/.Dialogue.txt', '.'), (str(dir_path) + '/.French Words.txt', '.'), (str(dir_path) + '/.left_right_choices.txt', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -17,7 +21,6 @@ a = Analysis(
     win_private_assemblies=False,
     cipher=block_cipher,
     noarchive=False,
-    datas=[('Dialogue.txt', '.'), ('French Words.txt', '.'), ('left_right_choices.txt', '.')],
 )
 pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
 
@@ -27,7 +30,7 @@ exe = EXE(
     a.binaries,
     a.zipfiles,
     a.datas,
-    [('v', None, 'OPTION')],
+    [],
     name='main',
     debug=False,
     bootloader_ignore_signals=False,

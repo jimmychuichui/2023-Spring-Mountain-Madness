@@ -1,7 +1,7 @@
 import random
 
 def give_tranlation(risk, options, translation_left, translation_right):
-    risks = [100, 87.5, 75, 62.5, 50, 37.5, 25, 12.5]
+    risks = [95, 90, 82, 75, 62, 50, 35, 15]
     
     good_translation = ''
     bad_translation = ''

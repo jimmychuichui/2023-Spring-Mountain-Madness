@@ -12,7 +12,7 @@ j = 0
 #attention_const measures delay from one line printing to the next
 def print_Narrate(start_int, end_int, delay_scalar, attention_const):
     start_index = start_int-1
-    text = open('Dialogue.txt')
+    text = open('.Dialogue.txt')
     file = text.readlines()
     #reads from Dialogue file
     for i in range((end_int) - (start_index)):
@@ -31,7 +31,7 @@ def print_Cyan(txt):
 
 #prints put random garbage
 def print_garbage(size):
-    file = open("French Words.txt")
+    file = open(".French Words.txt")
     line = file.readlines()
     print("\"", end='')
     for i in range(size):

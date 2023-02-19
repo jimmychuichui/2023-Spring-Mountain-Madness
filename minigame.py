@@ -79,6 +79,7 @@ def play(chosen_word):
         
 
     print('Game Over')
+    return score
 
 
-play(random.choice(word_list))
+#play(random.choice(word_list))

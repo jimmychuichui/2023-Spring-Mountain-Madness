@@ -19,6 +19,6 @@ def read_for_diaglog(node_number, node_name):
     return start_index+1, end_index
 
 
-index = read_for_diaglog(6, "Z")
-print(index)
+#index = read_for_diaglog(6, "Z")
+#print(index)
     

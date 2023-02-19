@@ -1,8 +1,8 @@
 import os
 import text
 
-def read_for_diaglog(node_number, node_name):
-    with open("Dialogue.txt", "r") as file:
+def read_for_choice(node_number, node_name):
+    with open("left_right_choices.txt", "r") as file:
         lines = file.readlines()
 
     start_index = 0
@@ -19,12 +19,11 @@ def read_for_diaglog(node_number, node_name):
             end_index = i
             
     
-    #return start_index+1, end_index
-    print(start_index+1, " ", end_index)
-    text.print_Narrate(start_index+1, end_index, 0.1, 0)
+    return start_index+1, end_index
 
 
 
+# print(read_for_choice(9, "T"))
 #index = read_for_diaglog(11, "D")
 #print(index)
     

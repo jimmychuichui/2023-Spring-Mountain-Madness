@@ -372,7 +372,7 @@ As your consciousness fades you hear a few final words.
 Black
 ***
 
-**Node 10: D
+**Node 7: D
 That mushroom is yours. 
 You run.
 You jump.
@@ -385,7 +385,7 @@ Safely out of its range you stare it right in the eyes and take a bite.
 You die instantly.
 ***
 
-**Node 7: D
+**Node 10: D
 You sit 
 You si
 You s

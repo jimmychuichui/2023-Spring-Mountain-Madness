@@ -15,6 +15,12 @@ You are stuck in a mysterious and oftentimes bizzare land. It is full of strange
 Beware of unscrupulous creatures luring you to certain death. But, play it too safe, and you could become forever lost.
 
 
+</p>
+
+# How to use the released package
+
+<p>
+  
 For linux (Ubuntu and Debian) and MacOS (intel or Apple Silion):
 To run this game properly, first download the folder from the release section, then unzip it. Due to the limitation of the system struture, you have to     manually access the folder from the terminal, by typing the following command.
     

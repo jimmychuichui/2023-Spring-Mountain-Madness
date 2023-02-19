@@ -26,7 +26,7 @@ Right: "This is not what you are looking for."
 **
 
 **Node 2: T 
-Left: "I’ve heard that there is an orchestra playing tonight. Just go through the door on your left."
+Left: "I've heard that there is an orchestra playing tonight. Just go through the door on your left."
 Right: "Watch out for the tuba men. They like to hang out over there." 
 (He points to the door on your left)
 **
@@ -52,8 +52,8 @@ Right: "We encourage you to join our happy occasion!"
 **
 
 **Node 11: T 
-Left: "The bathrooms are to the left. Don’t clog the toilets or I’ll have to call Larry again."
-Right: "The staff room is to the right. Don’t eat my muffins"
+Left: "The bathrooms are to the left. Don't clog the toilets or I'll have to call Larry again."
+Right: "The staff room is to the right. Don't eat my muffins"
 **
 
 

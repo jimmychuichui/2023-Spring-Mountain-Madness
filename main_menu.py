@@ -1,6 +1,7 @@
 from colorama import Fore, Back, Style
 import time
 import os
+import text
 
 CLEAR_SCREEN = ''
 if os.name == 'nt':
@@ -10,6 +11,7 @@ else:
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
+os.system(CLEAR_SCREEN)
 colors = [Fore.BLACK, Fore.BLUE, Fore.CYAN, Fore.GREEN, Fore.RED]
 for i in range(20):
     i = i%5
@@ -40,7 +42,10 @@ for i in range(20):
     """)
     time.sleep(0.2)
     os.system(CLEAR_SCREEN)
-    print('\n')
+
+print(f"{Style.BRIGHT}{Fore.BLUE}Welcome!{Style.RESET_ALL}")
+
+
 
 
 

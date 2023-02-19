@@ -57,10 +57,10 @@ For the best experience, please turn your terminal window to fullscreen mode.
 First download or clone the source code. Make sure python is correctly installed on your computer.
 Check for dependancy (if colorama is not installed, running below comand will make sure it installed)
 ```
-  pip install colorama
+pip install colorama
 ```
 After that, run:
 ```
-  python main.py
+python main.py
 ```
   

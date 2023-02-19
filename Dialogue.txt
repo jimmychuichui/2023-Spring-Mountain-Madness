@@ -142,7 +142,7 @@ French
 **Node 10: Z
 You are in a trance.                                                                                                                                                                                                                                                                                                                                                                
 Full of
-…
+...
 Yourself?
 
 (1) Stay a while

@@ -92,7 +92,7 @@ def play(chosen_word):
     return score
 
 def instructions():
-    print("You are now about to play a \"wordle\"-type game.")
+    print(f"{Fore.RED}You are now about to play a \"wordle\"-type game.")
     print("A random 5 letter word has been chosen.")
     print("To guess this word you must enter 5 characters (a-z)")
     print("A guess may look like this: ")
@@ -109,9 +109,9 @@ def instructions():
         print(char, end= '')
     print()
     time.sleep(1)
-    print("Green characters are the correct characters in the correct places")
+    print(f"{Fore.RED}Green characters are the correct characters in the correct places")
     print("Yellow characters are the characters in the wrong places")
-    print("Red characters are not present in the word")
+    print(f"Red characters are not present in the word{Style.RESET_ALL}")
 
     time.sleep(1)
 

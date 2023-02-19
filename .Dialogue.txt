@@ -48,9 +48,9 @@ Recognizing this to be French yet being a native english speaker
 You pull out your favourite "generic brand" translator app on your phone
 ...
 ...
+Something pops up onto your phone
 *Build Corrupted*
 "To remedy this unfortunate error solve this puzzle"
-Something pops up onto your phone
 **
 
 
@@ -82,7 +82,7 @@ You pick it up and punt it into the distance.
 You feel better.
 
 (1) You walk through the luminescent covered opening to your left
-(2) You get down and crawl towards the hole on your left
+(2) You get down and crawl towards the hole on your right
 **
 
 **Node 7: A
@@ -247,8 +247,10 @@ An earthworm sticks his head out of the ground and begins to speak:
 French
 
 **Node 6: B
-He is speaking quickly, but the app refuses to work!
-You must try to debug as fast as possible.
+He is speaking quickly!
+The app refuses to work!
+Calamity.
+The word game beckons
 ***
 
 **Node 6: Z
@@ -338,6 +340,7 @@ You hop around in mild pain but fail to notice the trap door on the side of the 
 You land directly on it, it opens, and you fall to your death.
 Your last thought is:
 "Betrayal by an earthworm is not a noble way to die"
+*SPLAT*
 ***
 
 **Node 9: D
@@ -372,7 +375,7 @@ As your consciousness fades you hear a few final words.
 Black
 ***
 
-**Node 7: D
+**Node 10: D
 That mushroom is yours. 
 You run.
 You jump.
@@ -385,7 +388,7 @@ Safely out of its range you stare it right in the eyes and take a bite.
 You die instantly.
 ***
 
-**Node 10: D
+**Node 7: D
 You sit 
 You si
 You s

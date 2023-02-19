@@ -23,11 +23,15 @@ To run this game properly, first download the folder from the release section, t
     #if you are using debian or ubuntu
     ./Game_Ubuntu_x64
 
-    #if you are using Macos
+    #if you are using MacOS (apple silicon)
     ./Game_Macos_arm64
   
 
   Or by dragging
+  
   ![til](./drag_example.gif)
+  
+  Then type
+  ./Game_Macos_arm64
  
   

@@ -12,7 +12,7 @@ j = 0
 #attention_const measures delay from one line printing to the next
 def print_Narrate(start_int, end_int, delay_scalar, attention_const):
     start_index = start_int-1
-    text = open("Dialogue.txt")
+    text = open('Dialogue.txt')
     file = text.readlines()
     #reads from Dialogue file
     for i in range((end_int) - (start_index)):
@@ -48,6 +48,4 @@ def print_garbage(size):
     for i in range(size):
         random_num = random.randint(0,125)
         print_Cyan((line[random_num]))
-        if i%10 == 0 and i!=0:
-            print()
     print()

@@ -175,7 +175,7 @@ It's very nice.
 “Hello. We are here to discuss your incarceration and potential lack thereof.”
 They speak english
 “In order to prove that you have actually learned your lesson you must solve my puzzle”
-“It’s really not that challenging. You’ve done it at least four times already.”
+“It’s really not that challenging. You’ve done it four times already.”
 “Anyways”
 ***
 

@@ -7,13 +7,20 @@ import text
 import read_dialogue
 import random
 import minigame_ultimate
+import os
+
+CLEAR_SCREEN = ''
+if os.name == 'nt':
+    CLEAR_SCREEN = 'cls'
+else:
+    CLEAR_SCREEN = 'clear'
+
+os.system('cls' if os.name == 'nt' else 'clear')
 
 
 
+pos = nodes.node_12
 
-
-pos = nodes.node_start
-'''
 if pos.data == '12':
     #print(wordle_choices)
     read_dialogue.read_for_diaglog(int(pos.data), 'A')
@@ -24,9 +31,15 @@ if pos.data == '12':
     time.sleep(1)
     read_dialogue.read_for_diaglog(int(pos.data), 'E')
     wordle_choices = ['CHECK','BRAIN','HELLO','AUDIO']
-    minigame_ultimate.run_ultimate(wordle_choices)
+    score = minigame_ultimate.run_ultimate(wordle_choices)
+    if score == 12:
+        read_dialogue.read_for_diaglog(int(pos.data), 'D')
+    else:
+        os.system(CLEAR_SCREEN)
+        read_dialogue.read_for_diaglog(int(pos.data), 'W')
+
 read_dialogue.read_for_diaglog(0, 'A')
-'''
+
 dead = False
 
 wordle_choices = []
@@ -42,16 +55,20 @@ while not dead and pos.data != "End":
 
 
     elif pos.data == '12':
-        #print(wordle_choices)
         read_dialogue.read_for_diaglog(int(pos.data), 'A')
         time.sleep(1)
         read_dialogue.read_for_diaglog(int(pos.data), 'B')
         time.sleep(1)
         read_dialogue.read_for_diaglog(int(pos.data), 'C')
         time.sleep(1)
-        read_dialogue.read_for_diaglog(int(pos.data), '')
-
-        minigame_ultimate.run_ultimate(wordle_choices)
+        read_dialogue.read_for_diaglog(int(pos.data), 'E')
+        #wordle_choices = ['CHECK','BRAIN','HELLO','AUDIO']
+        score = minigame_ultimate.run_ultimate(wordle_choices)
+        if score == 12:
+            read_dialogue.read_for_diaglog(int(pos.data), 'D')
+        else:
+            os.system(CLEAR_SCREEN)
+            read_dialogue.read_for_diaglog(int(pos.data), 'W')
 
     elif pos != nodes.node_start:
         # Read the room introduction

@@ -121,7 +121,7 @@ def move(node):
     if option == 'l':
         if pos.optionL == None:
             dead = True
-            print("Ded")
+            return "dead"
         else:
             pos = pos.optionL
             pos.previous = temp
@@ -129,7 +129,7 @@ def move(node):
     elif option == 'r':
         if pos.optionR == None:
             dead = True
-            print("Ded")
+            return "dead"
         else:
             pos = pos.optionR
             pos.previous = temp

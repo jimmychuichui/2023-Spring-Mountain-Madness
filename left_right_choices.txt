@@ -32,7 +32,7 @@ Right: "Watch out for the tuba men. They like to hang out over there."
 **
 
 **Node 5: T 
-Left: "If you are lost, always look at the time." (The hour hand points to 9 o’clock)
+Left: "If you are lost, always look at the time." (The hour hand points to 9 o'clock)
 Right: "Step carefully please. My clocks are precise but delicate. Take the door to your right."
 **
 

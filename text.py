@@ -21,6 +21,7 @@ def print_Narrate(start_int, end_int, delay_scalar, attention_const):
         time_of_sentence = len(file[i+(start_index)])/10
         time.sleep(attention_const+(delay_scalar*time_of_sentence))
     print(100*'=') 
+    text.close()
 
 #prints inserted text in a Bold and Cyan with an extra space at the end
 def print_Cyan(txt):
@@ -41,3 +42,4 @@ def print_garbage(size):
     print("\"", end='')
     print()
     print(100*'=') 
+    file.close()

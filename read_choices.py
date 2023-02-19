@@ -53,6 +53,7 @@ def read_for_choice(node_number, node_name):
             end_index = i
             
     #text.print_Narrate(start_index+1, end_index, 0.1, 0)
+    file.close()
     return arr
 
 

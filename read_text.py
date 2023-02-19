@@ -25,6 +25,6 @@ def read_for_diaglog(node_number, node_name):
 
 
 
-index = read_for_diaglog(1, "Z")
+index = read_for_diaglog(11, "D")
 #print(index)
     

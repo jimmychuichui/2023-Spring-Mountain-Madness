@@ -44,7 +44,7 @@ french
 
 **Node 1: B 
 Recognizing this to be French yet being a native english speaker
-You pull out your favourite ‘generic brand’ translator app on your phone
+You pull out your favourite "generic brand" translator app on your phone
 ...
 ...
 *Build Corrupted*

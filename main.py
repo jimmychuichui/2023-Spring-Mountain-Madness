@@ -44,7 +44,7 @@ while not dead:
         read_dialogue.read_for_diaglog(int(pos_copy.data), 'D')
         dead = True
         print('\n\n\n')
-        for i in range(3):
+        for i in range(1):
             print(f'{Fore.WHITE}{Back.RED}GAME OVER{Style.RESET_ALL}')
 
 

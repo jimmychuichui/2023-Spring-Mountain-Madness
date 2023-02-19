@@ -79,7 +79,7 @@ The shock from both teleporting and seeing a really funguy has worn off
 You pick it up and punt it into the distance.
 You feel better.
 (1) You walk through the luminescent covered opening to your left
-(1) You get down and crawl towards the hole on your left
+(2) You get down and crawl towards the hole on your left
 **
 
 **Node 7: A

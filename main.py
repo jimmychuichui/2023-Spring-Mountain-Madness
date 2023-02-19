@@ -1,14 +1,18 @@
-import minigame
 import time
-import random_translation
+import os
+import random
+from colorama import Fore, Back, Style
+
+import minigame
+import minigame_ultimate
+
 import world_tree
 import nodes
+
 import text
 import read_dialogue
-import random
-import minigame_ultimate
-import os
 import read_choices
+import random_translation
 
 CLEAR_SCREEN = ''
 if os.name == 'nt':
@@ -53,6 +57,9 @@ while not dead and pos.data != "End":
         #print("You died")
         read_dialogue.read_for_diaglog(int(pos_copy.data), 'D')
         dead = True
+        print('\n\n\n')
+        for i in range(3):
+            print(f'{Fore.WHITE}{Back.RED}GAME OVER{Style.RESET_ALL}')
 
 
     elif pos.data == '12':

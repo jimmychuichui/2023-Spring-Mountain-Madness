@@ -37,8 +37,8 @@ Right: "Step carefully please. My clocks are precise but delicate. Take the door
 **
 
 **Node 6: T 
-Left: "Hey there! I’m Jim. But you can call me Larry. Or Pete. I’ve heard that the soil is pretty tasty if you go to the door on your left!"
-Right: "Hey there! I’m Jim. But you can call me Larry. I’ve got a secret to tell you. Follow me down this hallway to the right."
+Left: "Hey there! I'm Jim. But you can call me Larry. Or Pete. I've heard that the soil is pretty tasty if you go to the door on your left!"
+Right: "Hey there! I'm Jim. But you can call me Larry. I've got a secret to tell you. Follow me down this hallway to the right."
 **
 
 **Node 8: T 

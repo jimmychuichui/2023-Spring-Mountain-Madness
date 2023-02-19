@@ -247,8 +247,10 @@ An earthworm sticks his head out of the ground and begins to speak:
 French
 
 **Node 6: B
-He is speaking quickly, but the app refuses to work!
-You must try to debug as fast as possible.
+He is speaking quickly!
+The app refuses to work!
+Calamity.
+The word game beckons
 ***
 
 **Node 6: Z
@@ -338,6 +340,7 @@ You hop around in mild pain but fail to notice the trap door on the side of the 
 You land directly on it, it opens, and you fall to your death.
 Your last thought is:
 "Betrayal by an earthworm is not a noble way to die"
+*SPLAT*
 ***
 
 **Node 9: D

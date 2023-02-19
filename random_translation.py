@@ -31,8 +31,5 @@ def give_tranlation(risk, options, translations_left, translations_right):
         print(random.choice(good_translations), end=' ')
     else:
         print(random.choice(bad_translations), end= ' ')
-    input()
 
-while True:
-    give_tranlation(2, [1, 1], ['left'], ['right'])
-    input()
+

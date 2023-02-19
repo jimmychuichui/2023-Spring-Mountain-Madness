@@ -1,6 +1,8 @@
 import minigame
+import random_translation
 import world_tree
 import nodes
+
 
 
 
@@ -12,4 +14,6 @@ while not dead and pos.data != "End":
     
     if pos != nodes.node_start:
         print("Time for off-brand wordle!")
-        minigame.run()
+        score = minigame.run()
+        print(score)
+        random_translation.give_tranlation(2, [1, 1], ['left'], ['right'])

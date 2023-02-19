@@ -43,6 +43,11 @@ def play(chosen_word):
     score = 0
     history = []
     #print(chosen_word)
+    for i in range(29):
+        word = ' '
+        char = f'{Style.BRIGHT}{Fore.BLACK}{Back.RED}{word}{Style.RESET_ALL}'
+        print(char, end= '')
+    print()
     while game_running and score<12:
         score += 1
         guess = make_guess(score).upper()
@@ -76,12 +81,12 @@ def play(chosen_word):
         if guess == chosen_word:
             print("\nWordle Completed!")
             game_running = False
-            return score
+            return 'pass'
         print("\n")
         
 
-    print('Game Over')
-    return score
+    #print('Game Over')
+    return 'fail'
 
 
 def instructions():
@@ -110,8 +115,10 @@ def run_ultimate(words):
             ultimate_choice += ','
 
         
-    print(ultimate_choice)
-    play(ultimate_choice)
+    #print(ultimate_choice)
+    result = play(ultimate_choice)
+    #print(result)
+    return result
 
 #words = ['TREAT', 'STATE', 'THING', 'CHIEF', 'LEASE']
 #run_ultimate(words)

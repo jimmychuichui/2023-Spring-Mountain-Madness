@@ -22,8 +22,6 @@ else:
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-
-
 pos = nodes.node_start
 read_dialogue.read_for_diaglog(0, 'A')
 
@@ -60,15 +58,18 @@ while not dead:
         read_dialogue.read_for_diaglog(int(pos.data), 'E')
         #wordle_choices = ['CHECK','BRAIN','HELLO','AUDIO']
         minigame_ultimate.instructions()
+        input("Press Enter to continue")
         os.system(CLEAR_SCREEN)
         score = minigame_ultimate.run_ultimate(wordle_choices)
-        if score == 12:
-            read_dialogue.read_for_diaglog(int(pos.data), 'D')
-        else:
+        print(score)
+        if score == 'pass':
             os.system(CLEAR_SCREEN)
             read_dialogue.read_for_diaglog(int(pos.data), 'W')
             input("Press Enter to end the game:")
-            dead = True
+            dead = True       
+        else:
+            os.system(CLEAR_SCREEN)
+            read_dialogue.read_for_diaglog(int(pos.data), 'D')
 
 
 

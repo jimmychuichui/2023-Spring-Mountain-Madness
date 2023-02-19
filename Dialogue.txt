@@ -68,8 +68,8 @@ You pull out your favourite ‘generic brand’ translator app on your phone
 “To remedy this unfortunate error solve this puzzle”
 Something pops up onto your phone
 **
-right: “It has been a long time without the touch of another human…”
-left: “Stay away from me, I have leprosy”
+left: “It has been a long time without the touch of another human…”
+right:: “Stay away from me, I have leprosy”
 
 
 **Node 1: Z
@@ -409,8 +409,3 @@ You can no longer breathe.
 As you run out of air you hear the stapler assailant clacking evilly.
 As if it is laughing…
 ***
-
-
-
-
-

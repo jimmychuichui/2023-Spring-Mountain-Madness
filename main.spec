@@ -8,6 +8,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
+    datas=[],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -17,7 +18,6 @@ a = Analysis(
     win_private_assemblies=False,
     cipher=block_cipher,
     noarchive=False,
-    datas=[('/home/kyc46/sfuhome/2023-Spring-Mountain-Madness/Dialogue.txt', '.'), ('/home/kyc46/sfuhome/2023-Spring-Mountain-Madness/French Words.txt', '.'), ('/home/kyc46/sfuhome/2023-Spring-Mountain-Madness/left_right_choices.txt', '.')],
 )
 pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
 
@@ -27,7 +27,7 @@ exe = EXE(
     a.binaries,
     a.zipfiles,
     a.datas,
-    [('v', None, 'OPTION')],
+    [],
     name='main',
     debug=False,
     bootloader_ignore_signals=False,

@@ -16,7 +16,7 @@ Beware of unscrupulous creatures luring you to certain death. But, play it too s
 
 
 For linux (Ubuntu and Debian) and MacOS (intel or Apple Silion):
-    To run this game properly, first download the folder from the release section, then unzip it. Due to the limitation of the system struture, you have to manually access the folder from the terminal, by typing the following command.
+To run this game properly, first download the folder from the release section, then unzip it. Due to the limitation of the system struture, you have to     manually access the folder from the terminal, by typing the following command.
     
     cd 
 
@@ -25,3 +25,9 @@ For linux (Ubuntu and Debian) and MacOS (intel or Apple Silion):
 
     #if you are using Macos
     ./Game_Macos_arm64
+  
+
+  Or by dragging
+  ![](https://github.sfu.ca/kyc46/2023-Spring-Mountain-Madness/drag_example.gif)
+ 
+  

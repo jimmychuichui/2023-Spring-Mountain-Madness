@@ -35,6 +35,7 @@ while not dead and pos.data != "End":
     print('\n')
     pos_copy = pos
     pos = world_tree.move(pos)
+    os.system(CLEAR_SCREEN)
     if pos == 'dead':
         #print("You died")
         read_dialogue.read_for_diaglog(int(pos_copy.data), 'D')

@@ -124,32 +124,32 @@ def move(node):
     pos = node
     dead = False
    
-    option = input("(L/R): ").lower()
+    option = input("(1/2): ").lower()
     temp = pos
 
 
-    if option == 'l':
+    if option == '1':
         if pos.optionL == None:
             dead = True
             return "dead"
         else:
             pos = pos.optionL
             pos.previous = temp
-            print('Current room:',pos.data, 'Previous room:',pos.previous)
-    elif option == 'r':
+            #print('Current room:',pos.data, 'Previous room:',pos.previous)
+    elif option == '2':
         if pos.optionR == None:
             dead = True
             return "dead"
         else:
             pos = pos.optionR
             pos.previous = temp
-            print('Current room:',pos.data, 'Previous room:',pos.previous)
+            #print('Current room:',pos.data, 'Previous room:',pos.previous)
     elif option == 'b':
         if pos.previous == None:
             print("Cannot go back further")
         else:
             pos = pos.previous
-            print("Current node: " + pos.data)
+            #print("Current node: " + pos.data)
 
     else:
         print("Correct input not recieved")  

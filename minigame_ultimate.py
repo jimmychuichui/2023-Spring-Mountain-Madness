@@ -84,7 +84,9 @@ def play(chosen_word):
     return score
 
 
-
+def instructions():
+    print("You have reached the ULTIMATE WORDLE")
+    print("In this wordle you must recall your previous wordle words")
 
 
 def run_ultimate(words):
@@ -99,5 +101,5 @@ def run_ultimate(words):
     print(ultimate_choice)
     play(ultimate_choice)
 
-words = ['TREAT', 'STATE', 'THING', 'CHIEF', 'LEASE']
-run_ultimate(words)
+#words = ['TREAT', 'STATE', 'THING', 'CHIEF', 'LEASE']
+#run_ultimate(words)

@@ -28,6 +28,6 @@ To run this game properly, first download the folder from the release section, t
   
 
   Or by dragging
-  ![](https://github.sfu.ca/kyc46/2023-Spring-Mountain-Madness/drag_example.gif)
+  ![til](./drag_example.gif)
  
   

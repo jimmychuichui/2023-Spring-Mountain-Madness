@@ -1,4 +1,5 @@
 import random
+from colorama import Fore, Back, Style
 
 def give_tranlation(risk, options, translation_left, translation_right):
     risks = [95, 90, 82, 75, 62, 50, 35, 15]
@@ -28,10 +29,12 @@ def give_tranlation(risk, options, translation_left, translation_right):
     choice2 = random.randrange(0,100)
 
     if choice2 < risks[risk-1]:
-        print(good_translation)
+        print(good_translation.strip('\n'))
     else:
-        print(bad_translation)
+        print(bad_translation.strip('\n'))
+
     print()
-    print("This tip has a {}% chance of being true".format(risks[risk-1]))
+    print(f"{Fore.YELLOW}{Style.BRIGHT}This tip has a {risks[risk-1]}% chance of being true{Style.RESET_ALL}\n")
+    print()
 
 

@@ -24,7 +24,7 @@ def print_Narrate(start_int, end_int, delay_scalar, attention_const):
 
 #prints inserted text in a Bold and Cyan with an extra space at the end
 def print_Cyan(txt):
-    print(f"{Style.BRIGHT}{Fore.CYAN}"+txt.strip('\n'),f"{Style.RESET_ALL}", end = "")
+    print(f"{Style.BRIGHT}{Fore.CYAN}"+txt.strip('\n '),f"{Style.RESET_ALL}", end = "")
 
 #prints out a translation and the % of getting the correct translation from Translations.txt
 
@@ -32,8 +32,12 @@ def print_Cyan(txt):
 def print_garbage(size):
     file = open("French Words.txt")
     line = file.readlines()
+    print("\"", end='')
     for i in range(size):
         random_num = random.randint(0,125)
         print_Cyan((line[random_num]))
+        if i%10 == 0 and i != 0:
+            print()
+    print("\"", end='')
     print()
     print(100*'=') 

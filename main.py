@@ -3,7 +3,7 @@ import random_translation
 import world_tree
 import nodes
 import text
-import read_text
+import read_dialogue
 
 
 
@@ -20,15 +20,15 @@ while not dead and pos.data != "End":
     pos = world_tree.move(pos)
     if pos == 'dead':
         #print("You died")
-        read_text.read_for_diaglog(int(pos_copy.data), 'D')
+        read_dialogue.read_for_diaglog(int(pos_copy.data), 'D')
         dead = True
     elif pos.data == '12':
         print(wordle_choices)
     elif pos != nodes.node_start:
-        read_text.read_for_diaglog(int(pos.data), 'A')
+        read_dialogue.read_for_diaglog(int(pos.data), 'A')
 
         #print("Current room number:",pos.data)
-        read_text.read_for_diaglog(int(pos.data), 'B')
+        read_dialogue.read_for_diaglog(int(pos.data), 'B')
         #print("Time for off-brand wordle!")
         score = minigame.run()
         wordle_choices.append(score[1])

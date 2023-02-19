@@ -2,10 +2,6 @@ import time
 from colorama import Fore, Style
 import random
 
-
-
-i = 0
-j = 0
 #start_int is the digit where the line starts in the file
 #end_int is the digit where the line ends in the file
 #delay_scalar is the multiple with which the size of the target sentence is multiplied for a general effect
@@ -26,6 +22,7 @@ def print_Narrate(start_int, end_int, delay_scalar, attention_const):
 def print_Cyan(txt):
     print(f"{Style.BRIGHT}{Fore.CYAN}"+txt.strip('\n'),f"{Style.RESET_ALL}", end = "")
 
+'''
 #prints out a translation and the % of getting the correct translation from Translations.txt
 def print_Outcome(attempts, start_int):
     lst = [100, 87.5, 75, 62.5, 50, 37.5, 25, 12.5]
@@ -40,6 +37,7 @@ def print_Outcome(attempts, start_int):
     print("Chance of success {:.2f}".format(percent))
     print(success)
     print(line[start_int+success])
+'''
 
 #prints put random garbage
 def print_garbage(size):
@@ -49,3 +47,9 @@ def print_garbage(size):
         random_num = random.randint(0,99)
         print_Cyan((line[random_num]))
     print()
+
+'''
+print_Cyan("HELP!")
+print_Narrate(4, 12, 0.5, 0)
+print_garbage(32)
+'''

@@ -110,6 +110,16 @@ nodes.node_12.optionL = nodes.node_end
 
 #create_nudes()
 
+def get_options(node):
+    pos = node
+    options = [1,1]
+    if pos.optionL == None:
+        options[0] = 0
+    if pos.optionR == None:
+        options[1] = 0
+    print(options)
+    return options
+
 def move(node):
     pos = node
     dead = False

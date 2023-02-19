@@ -1,4 +1,5 @@
 import os
+import text
 
 def read_for_diaglog(node_number, node_name):
     with open("Dialogue.txt", "r") as file:
@@ -11,12 +12,15 @@ def read_for_diaglog(node_number, node_name):
             i+=1
             start_index = i
             while i < len(lines) and not lines[i].startswith("**"):
-                print(lines[i], end="")
+                #print(lines[i], end="")
                 i += 1
             end_index = i
             
     
-    return start_index+1, end_index
+    #return start_index+1, end_index
+    print(start_index+1, " ", end_index)
+    text.print_Narrate(start_index+1, end_index, 0.1, 0)
+
 
 
 #index = read_for_diaglog(6, "Z")

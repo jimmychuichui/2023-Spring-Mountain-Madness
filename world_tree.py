@@ -124,7 +124,7 @@ def move(node):
     pos = node
     dead = False
    
-    option = input("R/L/B: ").lower()
+    option = input("(L/R): ").lower()
     temp = pos
 
 

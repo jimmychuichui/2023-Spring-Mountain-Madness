@@ -19,15 +19,15 @@ def make_guess(num):
     print(f"Make your guess ({num})")
     guess = ''
     guess = input()
-    if len(guess) != (5*5)+4:
-            print("Must be 5 5-letter words, separated by 4 commas")
+    if len(guess) != (5*4)+3:
+            print("Must be 4 5-letter words, separated by 3 commas")
             return make_guess(num)
     return guess
 
 def check_guess(guess, chosen_word):
     result = []
 
-    for i in range(29):
+    for i in range(23):
         if guess[i]==chosen_word[i]:
             result.append(["MATCH", guess[i]])
         elif guess[i] in chosen_word:
@@ -84,7 +84,19 @@ def play(chosen_word):
     return score
 
 
-
+def instructions():
+    print("You have reached the ULTIMATE WORDLE")
+    print("In this wordle you must recall your previous wordle words")
+    print("The structure will look like this: ")
+    words = ['WORD1', 'WORD2', 'WORD3', 'WORD4']
+    for i in range(len(words)):
+        char = f'{Style.BRIGHT}{Fore.BLACK}{Back.GREEN}{words[i]}{Style.RESET_ALL}'
+        print(char, end= '')
+        if i<5:
+            print('placeholder')
+        print(f"{Style.BRIGHT}{Fore.BLACK}{Back.GREEN},{Style.RESET_ALL}", end='')
+    print()
+    
 
 
 def run_ultimate(words):
@@ -99,5 +111,7 @@ def run_ultimate(words):
     print(ultimate_choice)
     play(ultimate_choice)
 
-words = ['TREAT', 'STATE', 'THING', 'CHIEF', 'LEASE']
-run_ultimate(words)
+#words = ['TREAT', 'STATE', 'THING', 'CHIEF', 'LEASE']
+#run_ultimate(words)
+
+instructions()

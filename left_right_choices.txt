@@ -2,3 +2,18 @@
 Left: Clack clack clack I love to drink human blood clack clack clack
 Right: The prisoner has escaped and is in the skeleton room! We have them surrounded!
 **
+
+**Node 1: T
+Left: “It has been a long time without the touch of another human…”
+Right: “Stay away from me, I have leprosy”
+**
+
+**Node 4: T
+Left: This place is dangerous! You need to leave there is a safe zone on your left
+Right: WOW. You got here through the cursed evil deadly forest on your left? WOW
+**
+
+**Node 7: T
+Left: This apple grants vision to those sssseeking knowledge. Eat.
+Right: Stay away interloper it is my sssacred duty to defend the fruits of this tree.
+Get too close and you will make a tasty sssnack.

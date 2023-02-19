@@ -87,7 +87,7 @@ You can smell the zone before you can see it
 Just beyond the way you see a grim foreboding red mushroom forest
 Red is your least favourite colour
 ...
-..
+...
 The trek was arduous but you have found yourself on top of a large hill
 The hill is (mushroom) capped by a tree 
 In its shadow lies an hypnotising apple, a miasma of colour on its skin
@@ -107,7 +107,7 @@ Attempting to translate his ssseductive ssspeech
 ...
 The apple
 ...
-..
+...
 
 (1) Resist the allure
 (2) Eat the apple
@@ -142,7 +142,7 @@ French
 **Node 10: Z
 You are in a trance.                                                                                                                                                                                                                                                                                                                                                                
 Full of
-…
+...
 Yourself?
 
 (1) Stay a while

@@ -25,4 +25,5 @@ A message appears from your phone
 A game pops up on your phone
 
 **Node 2: Z
-Looking up from your 
+Looking up from your phone there are two options
+(1) 

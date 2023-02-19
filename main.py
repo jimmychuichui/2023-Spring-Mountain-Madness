@@ -8,6 +8,7 @@ import read_dialogue
 import random
 import minigame_ultimate
 import os
+import read_choices
 
 CLEAR_SCREEN = ''
 if os.name == 'nt':
@@ -19,8 +20,8 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 
 
-pos = nodes.node_12
-
+pos = nodes.node_start
+'''
 if pos.data == '12':
     #print(wordle_choices)
     read_dialogue.read_for_diaglog(int(pos.data), 'A')
@@ -37,7 +38,7 @@ if pos.data == '12':
     else:
         os.system(CLEAR_SCREEN)
         read_dialogue.read_for_diaglog(int(pos.data), 'W')
-
+'''
 read_dialogue.read_for_diaglog(0, 'A')
 
 dead = False
@@ -89,7 +90,12 @@ while not dead and pos.data != "End":
         # give the random translations
         # here I will call the read_choices function 
         options = world_tree.get_options(pos)
-        random_translation.give_tranlation(score[0], options, ['left'], ['right'])
+        translations = read_choices.read_for_choice(int(pos.data), "T")
+        random_translation.give_tranlation(score[0], options, translations[0], translations[1])
+
+        # Show movement options
+        read_dialogue.read_for_diaglog(int(pos.data), 'Z')
+        
     
 
         

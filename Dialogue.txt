@@ -58,8 +58,8 @@ Something pops up onto your phone
 The man has his hand outstretched
 It appears as though he wants you to shake it
 Hidden in his sleeves snaking around his arm you see a strange device.
-(1) Shake his hand
-(2) leave through the other door
+(1) leave through the other door
+(2) Shake his hand
 **
 
 **Node 4: A

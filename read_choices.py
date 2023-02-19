@@ -52,12 +52,12 @@ def read_for_choice(node_number, node_name):
                 i += 1
             end_index = i
             
-    #text.print_Narrate(start_index+1, end_index, 0.1, 0, "left_right_choices.txt")
+    #text.print_Narrate(start_index+1, end_index, 0.1, 0)
     return arr
 
 
 
-#arr = read_for_choice(2, "T")
+#arr = read_for_choice(11, "T")
 #print(arr[0])
 #print(arr[1])
 

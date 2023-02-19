@@ -64,12 +64,14 @@ while not dead and pos.data != "End":
         time.sleep(1)
         read_dialogue.read_for_diaglog(int(pos.data), 'E')
         #wordle_choices = ['CHECK','BRAIN','HELLO','AUDIO']
+        minigame_ultimate.instructions()
         score = minigame_ultimate.run_ultimate(wordle_choices)
         if score == 12:
             read_dialogue.read_for_diaglog(int(pos.data), 'D')
         else:
             os.system(CLEAR_SCREEN)
             read_dialogue.read_for_diaglog(int(pos.data), 'W')
+
 
     elif pos != nodes.node_start:
         # Read the room introduction
@@ -95,7 +97,7 @@ while not dead and pos.data != "End":
 
         # Show movement options
         read_dialogue.read_for_diaglog(int(pos.data), 'Z')
-        
+
     
 
         

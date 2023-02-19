@@ -31,5 +31,7 @@ def give_tranlation(risk, options, translation_left, translation_right):
         print(good_translation)
     else:
         print(bad_translation)
+    print()
+    print("This tip has a {}% chance of being true".format(risks[risk-1]))
 
 

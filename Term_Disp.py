@@ -17,3 +17,8 @@ def Narrate(start_int, end_int, delay_scalar, attention_const):
         time_of_sentence = len(file[i+(start_index)])/10
         time.sleep(attention_const+(delay_scalar*time_of_sentence))
     print(62*'/') 
+
+def printCyanBold(string):
+    print("\033[96m {}\033[08m" .format(string))
+
+printCyanBold("LOLOLOL")

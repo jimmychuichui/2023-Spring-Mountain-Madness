@@ -1,0 +1,59 @@
+**Node 3: T
+Left: "Clack clack clack I love to drink human blood clack clack clack"
+Right: "The prisoner has escaped and is in the skeleton room! We have them surrounded!"
+**
+
+**Node 1: T
+Left: "It has been a long time without the touch of another human..."
+Right: "Stay away from me, I have leprosy"
+**
+
+**Node 4: T
+Left: "This place is dangerous! You need to leave there is a safe zone on your left"
+Right: "WOW. You got here through the cursed evil deadly forest on your left? WOW"
+**
+
+**Node 7: T
+Left: "This apple grants vision to those sssseeking knowledge. Eat."
+Right: "Stay away interloper it is my sssacred duty to defend the fruits of this tree.
+Get too close and you will make a tasty sssnack."
+**
+
+**Node 10: T
+Left: "It's of a person sitting as I am sitting now. 
+They are no longer a person as I am now."
+Right: "This is not what you are looking for."
+**
+
+**Node 2: T 
+Left: "I've heard that there is an orchestra playing tonight. Just go through the door on your left."
+Right: "Watch out for the tuba men. They like to hang out over there." 
+(He points to the door on your left)
+**
+
+**Node 5: T 
+Left: "If you are lost, always look at the time." (The hour hand points to 9 o'clock)
+Right: "Step carefully please. My clocks are precise but delicate. Take the door to your right."
+**
+
+**Node 6: T 
+Left: "Hey there! I'm Jim. But you can call me Larry. Or Pete. I've heard that the soil is pretty tasty if you go to the door on your left!"
+Right: "Hey there! I'm Jim. But you can call me Larry. I've got a secret to tell you. Follow me down this hallway to the right."
+**
+
+**Node 8: T 
+Left: "My name is Monsieur Crabbes. I adore money. There is lots of it in the portal to the left."
+Right: "My name is Monsieur Crabbes. I adore money. There is lots of it in the portal to the right."
+**
+
+**Node 9: T 
+Left: "You can either leave or join us. We suggest you leave"
+Right: "We encourage you to join our happy occasion!"
+**
+
+**Node 11: T 
+Left: "The bathrooms are to the left. Don't clog the toilets or I'll have to call Larry again."
+Right: "The staff room is to the right. Don't eat my muffins"
+**
+
+

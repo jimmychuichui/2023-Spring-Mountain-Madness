@@ -48,7 +48,7 @@ You pull out your favourite "generic brand" translator app on your phone
 ...
 ...
 *Build Corrupted*
-“To remedy this unfortunate error solve this puzzle”
+"To remedy this unfortunate error solve this puzzle"
 Something pops up onto your phone
 **
 
@@ -172,17 +172,17 @@ It's very nice.
 
 
 **Node 12: E
-“Hello. We are here to discuss your incarceration and potential lack thereof.”
+"Hello. We are here to discuss your incarceration and potential lack thereof."
 They speak english
-“In order to prove that you have actually learned your lesson you must solve my puzzle”
-“It’s really not that challenging. You’ve done it four times already.”
-“Anyways”
+"In order to prove that you have actually learned your lesson you must solve my puzzle"
+"It’s really not that challenging. You’ve done it four times already."
+"Anyways"
 ***
 
-“The god Wordle”
+"The god Wordle"
 
 **Node 12: W
-“Wow you did it kid I cant believe you’ve actually escaped from the land of 
+"Wow you did it kid I cant believe you’ve actually escaped from the land of 
 ...
 Translation
 People tend to get lost here."
@@ -205,7 +205,7 @@ Inside you find an old man listening to classical music.
 French
 
 **Node 2: B
-You open up “Generic Brand Translator”.
+You open up "Generic Brand Translator".
 An error message appears on the screen:
 Build Corrupted. To remedy this error, solve this puzzle:
 ***
@@ -329,7 +329,7 @@ Jim pulls out a tiny worm-sized knife and stabs your big toe.
 You hop around in mild pain but fail to notice the trap door on the side of the hallway. 
 You land directly on it, it opens, and you fall to your death.
 Your last thought is:
-“Betrayal by an earthworm is not a noble way to die”
+"Betrayal by an earthworm is not a noble way to die"
 ***
 
 **Node 9: D
@@ -340,7 +340,7 @@ As if on cue, the gnomes swarm around you and lift you off your feet.
 They carry you over to a human-sized picnic bench.
 You realise much too late that you are about to become a human sacrifice.
 The last words you hear before the shovel pierces your chest are:
-“YOU JUST GOT GNOMED”
+"YOU JUST GOT GNOMED"
 ***
 
 **Node 11: D
@@ -360,7 +360,7 @@ Not like it's going to need it anyways
 It doesn't. 
 The skeleton stands up and hits you with its skeleton slam attack.
 As your consciousness fades you hear a few final words.
-“I've got a bone to pick with you!”
+"I've got a bone to pick with you!"
 Black
 ***
 
@@ -390,8 +390,8 @@ End
 ***
 
 **Node 12: D
-“Wow”
-“How did you even get here?”
+"Wow"
+"How did you even get here?"
 He reaches for a sword on his back
 You fell on your metaphorical face right before the metaphorical finish line.
 Dead.

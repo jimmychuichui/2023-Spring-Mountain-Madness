@@ -1,5 +1,7 @@
 import minigame
 
+import nodes
+
 class Node:
     def __init__(self, data):
         self.data = data
@@ -12,89 +14,103 @@ class Node:
 
 
 
-def create_nudes():
-    global node_start
-    global node_1
-    global node_2
-    global node_3
-    global node_4
-    global node_5
-    global node_6
-    global node_7
-    global node_8
-    global node_9
-    global node_10
-    global node_11
-    global node_12
-    global node_end
-    node_start = Node("Start")
 
-    # create room nodes
-    node_1 = Node("1")
+'''
+global nodes.node_start
+global nodes.node_1
+global nodes.node_2
+global nodes.node_3
+global nodes.node_4
+global nodes.node_5
+global nodes.node_6
+global nodes.node_7
+global nodes.node_8
+global nodes.node_9
+global nodes.node_10
+global nodes.node_11
+global nodes.node_12
+global nodes.node_end
+'''
 
-    node_2 = Node("2")
+# create room nodes
+nodes.node_start = Node("Start")
 
-    node_3 = Node("3")
+nodes.node_1 = Node("1")
 
-    node_4 = Node("4")
-
-    node_5 = Node("5")
-
-    node_6 = Node("6")
-
-    node_7 = Node("7")
-
-    node_8 = Node("8")
-
-    node_9 = Node("9")
-
-    node_10 = Node("10")
-
-    node_11 = Node("11")
-
-    node_12 = Node("12")
-
-    node_end = Node("End")
+nodes.node_2 = Node("2")
 
 
-    # link the rooms together
-
-    node_start.optionL = node_1
-    node_start.optionR = node_2
-
-    node_1.optionL = node_3
-    node_1.optionR = node_4
-
-    node_2.optionL = node_5
-    node_2.optionR = node_6
-
-    node_3.optionR = node_7
-
-    node_4.optionL = node_7
-    node_4.optionR = node_8
-
-    node_5.optionL = node_8
-    node_5.optionR = node_9
-
-    node_6.optionL = node_9
-
-    node_7.optionR = node_10
-
-    node_8.optionL = node_10
-    node_8.optionR = node_11
-
-    node_9.optionL = node_11
-
-    node_10.optionR = node_12
-
-    node_11.optionL = node_12
-
-    node_12.optionL = node_end
+nodes.node_3 = Node("3")
 
 
-create_nudes()
+nodes.node_4 = Node("4")
 
-node_itr = node_start
+
+nodes.node_5 = Node("5")
+
+
+nodes.node_6 = Node("6")
+
+
+nodes.node_7 = Node("7")
+
+
+nodes.node_8 = Node("8")
+
+
+nodes.node_9 = Node("9")
+
+
+nodes.node_10 = Node("10")
+
+
+nodes.node_11 = Node("11")
+
+
+nodes.node_12 = Node("12")
+
+
+nodes.node_end = Node("End")
+
+
+# link the rooms together
+
+nodes.node_start.optionL = nodes.node_1
+nodes.node_start.optionR = nodes.node_2
+
+nodes.node_1.optionL = nodes.node_3
+nodes.node_1.optionR = nodes.node_4
+
+nodes.node_2.optionL = nodes.node_5
+nodes.node_2.optionR = nodes.node_6
+
+nodes.node_3.optionR = nodes.node_7
+
+nodes.node_4.optionL = nodes.node_7
+nodes.node_4.optionR = nodes.node_8
+
+nodes.node_5.optionL = nodes.node_8
+nodes.node_5.optionR = nodes.node_9
+
+nodes.node_6.optionL = nodes.node_9
+
+nodes.node_7.optionR = nodes.node_10
+
+nodes.node_8.optionL = nodes.node_10
+nodes.node_8.optionR = nodes.node_11
+
+nodes.node_9.optionL = nodes.node_11
+
+nodes.node_10.optionR = nodes.node_12
+
+nodes.node_11.optionL = nodes.node_12
+
+nodes.node_12.optionL = nodes.node_end
+
+
+#create_nudes()
+'''
+node_itr = nodes.node_start
 dead = False
 while not dead and node_itr.data != "End":
     option = input("R/L/B: ").lower()
@@ -127,11 +143,11 @@ while not dead and node_itr.data != "End":
     else:
         print("Correct input not recieved")  
 
-    if node_itr == node_4:
+    if node_itr == nodes.node_4:
         minigame.run()
 
     
     
 
 #print("You Won")
-
+'''

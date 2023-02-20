@@ -22,16 +22,17 @@ Beware of unscrupulous creatures luring you to certain death. But, play it too s
 <p>
   
 For linux (Ubuntu and Debian) and MacOS (intel or Apple Silion):
-To run this game properly, first download the folder from the release section, then unzip it. Due to the limitation of the system struture, you have to     manually access the folder from the terminal, by typing the following command.
-    
-    #relapce "where-you-put-the-folder" and "downloaded-folder-name" with actual value
-    cd /where-you-put-the-folder/downloaded-folder-name/
 
+    ```
+    #relace "the-directory-that-the-game-locate-on" with actual path
+    cd /the-directory-that-the-game-locate-on
+    
     #if you are using debian or ubuntu
     ./Game_Ubuntu_x64
 
     #if you are using MacOS (apple silicon)
     ./Game_Macos_arm64
+    ```
   
 
   Or by dragging (no need to type the looooong path)

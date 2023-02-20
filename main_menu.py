@@ -48,14 +48,14 @@ def info():
     print(f"{Style.BRIGHT}{Fore.BLUE}Welcome!{Style.RESET_ALL}")
     print()
     print(f'''{Fore.WHITE}
-    You are stuck in a mysterious land. It is full of strange creature and even stranger locations.
-    Even the language that the locals speak is unintelligable to you. It is perhaps a French dialect.
-    Nevertheless, you must attempt to translate the useful tips the locals will give you. 
-    Unfortuntely, your <GENERIC TRANSLATE APP> is corrupted and does not translate properly. To debug,
-    you must solve puzzles. {Fore.YELLOW}The accuracy of the resulting translation depends on your puzzle-solving
-    proficiency.{Fore.WHITE} 
+You are stuck in a mysterious land. It is full of strange creature and even stranger locations.
+Even the language that the locals speak is unintelligable to you. It is perhaps a French dialect.
+Nevertheless, you must attempt to translate the useful tips the locals will give you. 
+Unfortuntely, your GENERIC TRANSLATE APP is corrupted and does not translate properly. To get a translation,
+you must solve puzzles. {Fore.YELLOW}The accuracy of the resulting translation depends on your puzzle-solving
+proficiency.{Fore.WHITE} 
 
-    Beware of unscrupulous creatures luring you to certain death. But play it too safe, and you could become forever lost.
+Beware of unscrupulous creatures luring you to certain death. But play it too safe, and you could become forever lost.
 
 Press Enter to begin
     ''')

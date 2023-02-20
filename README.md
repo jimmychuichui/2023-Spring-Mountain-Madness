@@ -64,3 +64,14 @@ After that, run:
 python main.py
 ```
   
+
+</p>
+
+# Common issues
+
+<p>
+
+1. Permisson issue (on linux)
+
+
+

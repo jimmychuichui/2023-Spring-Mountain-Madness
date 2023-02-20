@@ -33,7 +33,7 @@ To run this game properly, first download the folder from the release section, t
     ./Game_Macos_arm64
   
 
-  Or by dragging
+  Or by dragging (no need to type the looooong path)
   
   ![til](./assets/drag_example.gif)
   

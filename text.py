@@ -15,16 +15,7 @@ j = 0
 def print_Narrate(start_int, end_int, delay_scalar, attention_const):
     start_index = start_int-1
 
-    if getattr(sys, 'frozen', False):
-        # If the application is run as a PyInstaller executable, use the
-        # special sys._MEIPASS attribute to get the path to the temporary
-        # directory
-        base_path = sys._MEIPASS + "/data"
-    else:
-        # If the application is run from source code, use the current
-        # directory
-        base_path = os.path.abspath(".")
-
+    #get the path dynamiclly 
     data_path = os.path.join(path_getter.get_path(), ".Dialogue.txt")
     #print(data_path)
     text = open(data_path)
@@ -46,17 +37,9 @@ def print_Cyan(txt):
 
 #prints put random garbage
 def print_garbage(size):
-    if getattr(sys, 'frozen', False):
-        # If the application is run as a PyInstaller executable, use the
-        # special sys._MEIPASS attribute to get the path to the temporary
-        # directory
-        base_path = sys._MEIPASS + "/data"
-    else:
-        # If the application is run from source code, use the current
-        # directory
-        base_path = os.path.abspath(".")
-
+    #get the path dynamiclly
     data_path = os.path.join(path_getter.get_path(), ".French Words.txt")
+    
     file = open(data_path)
     line = file.readlines()
     print("\"", end='')

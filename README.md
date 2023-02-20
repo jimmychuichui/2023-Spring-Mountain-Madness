@@ -71,7 +71,7 @@ python main.py
 
 <p>
 
-1. Permisson issue (on linux)
+1. Permisson issue (on linux) </br>
 ![til](./assets/permission_issue.png)
 
 

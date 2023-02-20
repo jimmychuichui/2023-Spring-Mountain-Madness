@@ -24,6 +24,7 @@ Beware of unscrupulous creatures luring you to certain death. But, play it too s
 For linux (Ubuntu and Debian) and MacOS (intel or Apple Silion):
 To run this game properly, first download the folder from the release section, then unzip it. Due to the limitation of the system struture, you have to     manually access the folder from the terminal, by typing the following command.
     
+    #relapce "where-you-put-the-folder" and "downloaded-folder-name" with actual value
     cd /where-you-put-the-folder/downloaded-folder-name/
 
     #if you are using debian or ubuntu
@@ -33,16 +34,61 @@ To run this game properly, first download the folder from the release section, t
     ./Game_Macos_arm64
   
 
-  Or by dragging
+  Or by dragging (no need to type the looooong path)
   
-  ![til](./drag_example.gif)
+  ![til](./assets/drag_example.gif)
   
   Then type
   
+  ```
   ./Game_Macos_arm64
+  ```
  
   
+For Windows user, just download and click the .exe file. No extra step needed.
  
+For the best experience, please turn your terminal window to fullscreen mode.
+ 
+</p>
 
-For Windows user, just download and click the .exe file
+# How to run the game from source
+
+<p>
   
+First download or clone the source code. Make sure python is correctly installed on your computer.
+Check for dependancy (if colorama is not installed, running below comand will make sure it installed)
+```
+pip install colorama
+```
+After that, run:
+```
+python main.py
+```
+  
+
+</p>
+
+# Common issues
+
+<p>
+
+1. Permisson issue (on linux) </br>
+![til](./assets/permission_issue.png)</br>
+You can execute this command
+```
+chmod 777 ./Game_Ubuntu_x64
+``` 
+</br>
+
+2. FileNotFoundError: [Errno 2] No such file or directory: 'xxxx.txt'
+![til](./assets/directoy_issue.png)</br>
+Plase make sure you have cd into the game directory, then run the execuatble.
+</br>
+
+3. "Game_MacOS_arm64" can't be opened because Apple cannot check it for malicious software. </br>
+![til](./assets/malicious_software.png)</br></br>
+
+Go to setting, type privacy on the search bar,
+
+![til](./assets/security_mac.gif)</br></br>
+

@@ -72,6 +72,9 @@ python main.py
 <p>
 
 1. Permisson issue (on linux) </br>
-![til](./assets/permission_issue.png)
-
+![til](./assets/permission_issue.png)</br>
+You can execute this command
+```
+chmod 777 ./Game_Ubuntu_x64
+```
 

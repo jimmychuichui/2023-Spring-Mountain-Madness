@@ -82,5 +82,4 @@ chmod 777 ./Game_Ubuntu_x64
 
 2. FileNotFoundError: [Errno 2] No such file or directory: 'xxxx.txt'
 ![til](./assets/directoy_issue.png)</br>
-
-
+Plase make sure you have cd into the game directory, then run the execuatble.

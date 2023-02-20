@@ -55,7 +55,7 @@ For the best experience, please turn your terminal window to fullscreen mode.
 
 <p>
   
-First download or clone the source code. Make sure python is correctly installed on your computer.
+Download or clone the source code. Make sure python is correctly installed on your computer.
 Check for dependancy (if colorama is not installed, running below comand will make sure it installed)
 ```
 pip install colorama
@@ -64,7 +64,24 @@ After that, run:
 ```
 python main.py
 ```
-  
+
+
+</p>
+
+# How to compile the game from source
+
+<p>
+
+Download or clone the source code. Make sure python is correctly installed on your computer.
+Check for dependancy (if colorama is not installed, running below comand will make sure it installed)
+```
+pip install colorama pyinstaller
+```
+After that, run:
+```
+python -m PyInstaller main.py
+```
+</br>
 
 </p>
 

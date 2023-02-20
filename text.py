@@ -1,7 +1,9 @@
 import time
 from colorama import Fore, Style
 import random
-
+import os
+import sys
+import path_getter
 
 
 i = 0
@@ -12,7 +14,20 @@ j = 0
 #attention_const measures delay from one line printing to the next
 def print_Narrate(start_int, end_int, delay_scalar, attention_const):
     start_index = start_int-1
-    text = open('.Dialogue.txt')
+
+    if getattr(sys, 'frozen', False):
+        # If the application is run as a PyInstaller executable, use the
+        # special sys._MEIPASS attribute to get the path to the temporary
+        # directory
+        base_path = sys._MEIPASS + "/data"
+    else:
+        # If the application is run from source code, use the current
+        # directory
+        base_path = os.path.abspath(".")
+
+    data_path = os.path.join(path_getter.get_path(), ".Dialogue.txt")
+    #print(data_path)
+    text = open(data_path)
     file = text.readlines()
     #reads from Dialogue file
     for i in range((end_int) - (start_index)):
@@ -31,7 +46,18 @@ def print_Cyan(txt):
 
 #prints put random garbage
 def print_garbage(size):
-    file = open(".French Words.txt")
+    if getattr(sys, 'frozen', False):
+        # If the application is run as a PyInstaller executable, use the
+        # special sys._MEIPASS attribute to get the path to the temporary
+        # directory
+        base_path = sys._MEIPASS + "/data"
+    else:
+        # If the application is run from source code, use the current
+        # directory
+        base_path = os.path.abspath(".")
+
+    data_path = os.path.join(path_getter.get_path(), ".French Words.txt")
+    file = open(data_path)
     line = file.readlines()
     print("\"", end='')
     for i in range(size):

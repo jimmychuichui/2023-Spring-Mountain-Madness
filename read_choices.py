@@ -1,5 +1,11 @@
 import os
 import text
+import sys
+import path_getter
+
+
+# Get the path to the temporary directory where data files are located
+# at runtime
 
 
 
@@ -11,9 +17,14 @@ import text
 # [left, right]
 
 def read_for_choice(node_number, node_name):
-    with open(".left_right_choices.txt", "r") as file:
-        lines = file.readlines()
 
+
+    # Build the full path to the data file
+    data_path = os.path.join(path_getter.get_path(), ".left_right_choices.txt")
+   
+    with open(data_path, "r") as file:
+        lines = file.readlines()
+    
     start_index = 0
     end_index = 0
     checkfor = "**Node " + str(node_number)+ ": " + node_name

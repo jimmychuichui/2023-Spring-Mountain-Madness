@@ -1,9 +1,22 @@
 import os
 import text
+import sys
+import path_getter
+
+
+
+
 
 def read_for_diaglog(node_number, node_name):
-    with open(".Dialogue.txt", "r") as file:
+
+
+    # Build the full path to the data file
+    data_path = os.path.join(path_getter.get_path(), ".Dialogue.txt")
+    
+
+    with open(data_path, "r") as file:
         lines = file.readlines()
+    #print(data_path)
 
     start_index = 0
     end_index = 0

@@ -56,7 +56,7 @@ For the best experience, please turn your terminal window to fullscreen mode.
 <p>
   
 Download or clone the source code. Make sure python is correctly installed on your computer.
-Check for dependancy (if colorama is not installed, running below comand will make sure it installed)
+Check for dependancy belowby running the code (if colorama is not installed, running below comand will make sure it installed)
 ```
 pip install colorama
 ```
@@ -73,7 +73,7 @@ python main.py
 <p>
 
 Download or clone the source code. Make sure python is correctly installed on your computer.
-Check for dependancy (if colorama is not installed, running below comand will make sure it installed)
+Check for dependancy belowby running the code (if colorama or PyInstaller is not installed, running below comand will make sure it installed)
 ```
 pip install colorama pyinstaller
 ```

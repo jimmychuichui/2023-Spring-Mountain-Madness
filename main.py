@@ -13,6 +13,8 @@ import text
 import read_dialogue
 import read_choices
 import random_translation
+import main_menu
+
 
 CLEAR_SCREEN = ''
 if os.name == 'nt':
@@ -21,6 +23,13 @@ else:
     CLEAR_SCREEN = 'clear'
 
 os.system('cls' if os.name == 'nt' else 'clear')
+
+
+main_menu.opening_logo(20)
+
+time.sleep(1)
+
+main_menu.info()
 
 
 
@@ -46,7 +55,7 @@ while not dead:
         read_dialogue.read_for_diaglog(int(pos_copy.data), 'D')
         dead = True
         print('\n\n\n')
-        for i in range(3):
+        for i in range(1):
             print(f'{Fore.WHITE}{Back.RED}GAME OVER{Style.RESET_ALL}')
 
 
@@ -60,15 +69,18 @@ while not dead:
         read_dialogue.read_for_diaglog(int(pos.data), 'E')
         #wordle_choices = ['CHECK','BRAIN','HELLO','AUDIO']
         minigame_ultimate.instructions()
+        input("Press Enter to continue")
         os.system(CLEAR_SCREEN)
         score = minigame_ultimate.run_ultimate(wordle_choices)
-        if score == 12:
-            read_dialogue.read_for_diaglog(int(pos.data), 'D')
-        else:
+        print(score)
+        if score == 'pass':
             os.system(CLEAR_SCREEN)
             read_dialogue.read_for_diaglog(int(pos.data), 'W')
             input("Press Enter to end the game:")
-            dead = True
+            dead = True       
+        else:
+            os.system(CLEAR_SCREEN)
+            read_dialogue.read_for_diaglog(int(pos.data), 'D')
 
 
 
@@ -94,6 +106,8 @@ while not dead:
         # here I will call the read_choices function 
         options = world_tree.get_options(pos)
         translations = read_choices.read_for_choice(int(pos.data), "T")
+        print('\n')
+        print("Incoming Translation:")
         random_translation.give_translation(score[0], options, translations[0], translations[1])
 
         # Show movement options

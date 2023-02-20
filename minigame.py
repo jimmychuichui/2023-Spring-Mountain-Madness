@@ -82,7 +82,7 @@ def play(chosen_word):
         history.append(temp)
         
         if guess == chosen_word:
-            print("\nWordle Completed!")
+            print("\n\nWordle Completed!")
             game_running = False
             return score
         print("\n")

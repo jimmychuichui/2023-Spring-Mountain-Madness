@@ -1,8 +1,4 @@
-__pycache__/minigame_ultimate.cpython-310.pyc
-__pycache__/minigame.cpython-310.pyc
-__pycache__/nodes.cpython-310.pyc
-__pycache__/random_translation.cpython-310.pyc
-__pycache__/read_choices.cpython-310.pyc
-__pycache__/read_dialogue.cpython-310.pyc
-__pycache__/text.cpython-310.pyc
-__pycache__/world_tree.cpython-310.pyc
+build/
+dist/
+.vscode/
+__pycache__/

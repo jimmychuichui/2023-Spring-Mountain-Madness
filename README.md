@@ -1,1 +1,66 @@
-Hello! This repo is for 2023 spring mountain madness
+<p>Hello! This repo is for 2023 spring mountain madness team including: <br>  
+Xander Smith (xws)<br>  
+Jimmy Chui (kyc46)<br>  
+Jonathan Peters (jmp22) <br>  
+</p>
+
+# The Game
+
+<p>
+This is a text-based dungeon/adventure game, titled "LOST IN TRANSLATION"
+Here is a short synopsis:
+  
+You are stuck in a mysterious and oftentimes bizzare land. It is full of strange creature and even stranger locations. Even the language that the locals speak is unintelligable to you. It is perhaps a French dialect. Nevertheless, you must attempt to translate the useful tips the locals will give you. Unfortuntely, your GENERIC TRANSLATE APP is corrupted and does not translate properly. To debug, you must solve puzzles. The accuracy of the resulting translation depends on your puzzle-solving proficiency. 
+
+Beware of unscrupulous creatures luring you to certain death. But, play it too safe, and you could become forever lost.
+
+
+</p>
+
+# How to use the released package
+
+<p>
+  
+For linux (Ubuntu and Debian) and MacOS (intel or Apple Silion):
+To run this game properly, first download the folder from the release section, then unzip it. Due to the limitation of the system struture, you have to     manually access the folder from the terminal, by typing the following command.
+    
+    cd /where-you-put-the-folder/downloaded-folder-name/
+
+    #if you are using debian or ubuntu
+    ./Game_Ubuntu_x64
+
+    #if you are using MacOS (apple silicon)
+    ./Game_Macos_arm64
+  
+
+  Or by dragging
+  
+  ![til](./drag_example.gif)
+  
+  Then type
+  
+  ```
+  ./Game_Macos_arm64
+  ```
+ 
+  
+For Windows user, just download and click the .exe file. No extra step needed.
+ 
+For the best experience, please turn your terminal window to fullscreen mode.
+ 
+</p>
+
+# How to run the game from source
+
+<p>
+  
+First download or clone the source code. Make sure python is correctly installed on your computer.
+Check for dependancy (if colorama is not installed, running below comand will make sure it installed)
+```
+pip install colorama
+```
+After that, run:
+```
+python main.py
+```
+  

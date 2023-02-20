@@ -86,4 +86,9 @@ Plase make sure you have cd into the game directory, then run the execuatble.
 </br>
 
 3. "Game_MacOS_arm64" can't be opened because Apple cannot check it for malicious software. </br>
-![til](./assets/malicious_software.png)</br>
+![til](./assets/malicious_software.png)</br></br>
+
+Go to setting, type privacy on the search bar,
+
+![til](./assets/security_mac.gif)</br></br>
+

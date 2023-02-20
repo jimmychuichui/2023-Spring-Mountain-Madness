@@ -82,8 +82,8 @@ After that, run:
 python -m PyInstaller --onefile main.py
 ```
 </br>
-video tutorial
-<href>https://youtu.be/7yDT9fxT4xY<href>
+Video tutorial</br>
+</href>https://youtu.be/7yDT9fxT4xY</href>
 </br>
 
 </p>

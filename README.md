@@ -35,7 +35,7 @@ To run this game properly, first download the folder from the release section, t
 
   Or by dragging
   
-  ![til](./drag_example.gif)
+  ![til](./assets/drag_example.gif)
   
   Then type
   
@@ -72,6 +72,6 @@ python main.py
 <p>
 
 1. Permisson issue (on linux)
-
+![til](./assets/permission_issue.png)
 
 

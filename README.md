@@ -81,6 +81,6 @@ chmod 777 ./Game_Ubuntu_x64
 </br>
 
 2. FileNotFoundError: [Errno 2] No such file or directory: 'xxxx.txt'
-![til](./assets/permission_issue.png)</br>
+![til](./assets/directoy_issue.png)</br>
 
 

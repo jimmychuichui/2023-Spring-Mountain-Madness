@@ -79,8 +79,11 @@ pip install colorama pyinstaller
 ```
 After that, run:
 ```
-python -m PyInstaller main.py
+python -m PyInstaller --onefile main.py
 ```
+</br>
+video tutorial
+<href>https://youtu.be/7yDT9fxT4xY<href>
 </br>
 
 </p>

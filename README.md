@@ -83,3 +83,7 @@ chmod 777 ./Game_Ubuntu_x64
 2. FileNotFoundError: [Errno 2] No such file or directory: 'xxxx.txt'
 ![til](./assets/directoy_issue.png)</br>
 Plase make sure you have cd into the game directory, then run the execuatble.
+</br>
+
+3. "Game_MacOS_arm64" can't be opened because Apple cannot check it for malicious software. </br>
+![til](./assets/malicious_software.png)</br>

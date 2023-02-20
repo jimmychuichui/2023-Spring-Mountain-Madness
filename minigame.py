@@ -43,7 +43,7 @@ def play(chosen_word):
     score = 0
     history = []
     #print(chosen_word)
-    word = '     '
+    word = '-----'
     for i in range(5):
         char = f'{Style.BRIGHT}{Fore.BLACK}{Back.RED}{word[i]}{Style.RESET_ALL}'
         print(char, end= '')
@@ -55,6 +55,9 @@ def play(chosen_word):
         guess = make_guess(score).upper()
         #print(guess)
         if guess=="EXITS":
+            print(f"\n\n{Fore.GREEN}Wordle Completed!{Style.RESET_ALL}")
+            print(f"\nThe correct answer was: {Style.BRIGHT}{Fore.WHITE}{Back.GREEN}"+chosen_word+f"{Style.RESET_ALL}.")
+            game_running = False
             return score
         data = check_guess(guess, chosen_word)
         os.system(CLEAR_SCREEN)
@@ -82,13 +85,16 @@ def play(chosen_word):
         history.append(temp)
         
         if guess == chosen_word:
-            print("\n\nWordle Completed!")
+            print(f"\n\n{Fore.GREEN}Wordle Completed!{Style.RESET_ALL}")
+            print(f"\nThe correct answer was: {Style.BRIGHT}{Fore.WHITE}{Back.GREEN}"+chosen_word+f"{Style.RESET_ALL}.")
             game_running = False
             return score
         print("\n")
-        
-
+    
     print('Game Over')
+    print()
+    print(f"\nThe correct answer was: {Style.BRIGHT}{Fore.WHITE}{Back.GREEN}"+chosen_word+f"{Style.RESET_ALL}.")
+    
     return score
 
 def instructions():

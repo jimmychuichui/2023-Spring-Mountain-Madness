@@ -42,7 +42,7 @@ def print_garbage(size):
     
     file = open(data_path)
     line = file.readlines()
-    print("NPC:  ", end='')
+    print("NPC:")
     print(f"{Fore.CYAN}{Style.BRIGHT}\"", end='')
     for i in range(size):
         random_num = random.randint(0,125)

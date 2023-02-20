@@ -34,7 +34,7 @@ def read_for_diaglog(node_number, node_name):
     
     #return start_index+1, end_index
     #print(start_index+1, " ", end_index)
-    text.print_Narrate(start_index+1, end_index, 0.5, 0)
+    text.print_Narrate(start_index+1, end_index, 0.3, 0.2)
 
     file.close()
 

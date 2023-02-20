@@ -136,6 +136,7 @@ def move(node):
         return 'dead'
     else:
         print("Correct input not recieved")  
+        return move(pos)
     return pos
 
     ##if pos == nodes.node_4:

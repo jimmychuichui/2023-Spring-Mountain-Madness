@@ -29,12 +29,12 @@ def give_translation(risk, options, translation_left, translation_right):
     choice2 = random.randrange(0,100)
 
     if choice2 < risks[risk-1]:
-        print(f"{Style.BRIGHT}{Fore.BLUE}{good_translation}")
+        print(f"{Style.BRIGHT}{Fore.CYAN}{good_translation}")
     else:
-        print(f"{Style.BRIGHT}{Fore.BLUE}{bad_translation}")
+        print(f"{Style.BRIGHT}{Fore.CYAN}{bad_translation}")
 
     print()
-    print(f"{Fore.YELLOW}{Style.BRIGHT}This tip has a {risks[risk-1]}% chance of being true{Style.RESET_ALL}\n")
+    print(f"{Fore.YELLOW}{Style.BRIGHT}This translation has {risks[risk-1]}% accuracy.{Style.RESET_ALL}\n")
     print()
 
 

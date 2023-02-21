@@ -80,7 +80,7 @@ pip install colorama pyinstaller
 ```
 After that, run:
 ```
-python -m PyInstaller --onefile main.py
+python -m PyInstaller Game.spec
 ```
 </br>
 Video tutorial</br>

@@ -23,7 +23,7 @@ Beware of unscrupulous creatures luring you to certain death. But, play it too s
   
 For linux (Ubuntu and Debian) and MacOS (intel or Apple Silion):
 
-    ```
+    
     #relace "the-directory-that-the-game-locate-on" with actual path
     cd /the-directory-that-the-game-locate-on
     
@@ -32,7 +32,7 @@ For linux (Ubuntu and Debian) and MacOS (intel or Apple Silion):
 
     #if you are using MacOS (apple silicon)
     ./Game_Macos_arm64
-    ```
+    
   
 
   Or by dragging (no need to type the looooong path)
@@ -80,7 +80,7 @@ pip install colorama pyinstaller
 ```
 After that, run:
 ```
-python -m PyInstaller --onefile main.py
+python -m PyInstaller Game.spec
 ```
 </br>
 Video tutorial</br>

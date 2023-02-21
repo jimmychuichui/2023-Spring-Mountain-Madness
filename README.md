@@ -23,7 +23,7 @@ Beware of unscrupulous creatures luring you to certain death. But, play it too s
   
 For linux (Ubuntu and Debian) and MacOS (intel or Apple Silion):
 
-    ```
+    
     #relace "the-directory-that-the-game-locate-on" with actual path
     cd /the-directory-that-the-game-locate-on
     
@@ -32,7 +32,7 @@ For linux (Ubuntu and Debian) and MacOS (intel or Apple Silion):
 
     #if you are using MacOS (apple silicon)
     ./Game_Macos_arm64
-    ```
+    
   
 
   Or by dragging (no need to type the looooong path)
@@ -101,12 +101,9 @@ chmod 777 ./Game_Ubuntu_x64
 ``` 
 </br>
 
-2. FileNotFoundError: [Errno 2] No such file or directory: 'xxxx.txt'
-![til](./assets/directoy_issue.png)</br>
-Plase make sure you have cd into the game directory, then run the execuatble.
-</br>
 
-3. "Game_MacOS_arm64" can't be opened because Apple cannot check it for malicious software. </br>
+
+2. "Game_MacOS_arm64" can't be opened because Apple cannot check it for malicious software. </br>
 ![til](./assets/malicious_software.png)</br></br>
 
 Go to setting, type privacy on the search bar, click "Privacy & security", scroll to the bottom, click "Allow Anyway", enter your user password, then follow the instructions for linux (Ubuntu and Debian) and MacOS (intel or Apple Silion) again.

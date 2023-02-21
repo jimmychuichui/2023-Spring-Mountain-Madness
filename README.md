@@ -48,7 +48,7 @@ For linux (Ubuntu and Debian) and MacOS (intel or Apple Silion):
   
 For Windows user, just download and click the .exe file. No extra step needed.
  
-For the best experience, please turn your terminal window to fullscreen mode.
+For the best experience, please turn your terminal window to fullscreen mode..
  
 </p>
 
